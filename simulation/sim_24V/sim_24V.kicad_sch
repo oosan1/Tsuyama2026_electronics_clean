@@ -2419,12 +2419,6 @@
 		(uuid "23f0073c-31eb-4673-90f4-ab5111b1db42")
 	)
 	(junction
-		(at 91.44 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26aac378-2b3e-4a2c-867c-4e71e0e2dc53")
-	)
-	(junction
 		(at 123.19 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2642,16 +2636,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 119.38) (xy 91.44 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ac57325-b2a5-46e9-bde9-8e12fbea3eb9")
-	)
-	(wire
-		(pts
 			(xy 123.19 44.45) (xy 123.19 45.72)
 		)
 		(stroke
@@ -2709,16 +2693,6 @@
 			(type default)
 		)
 		(uuid "2b708b98-7397-42bf-879e-a210ec1e10a1")
-	)
-	(wire
-		(pts
-			(xy 91.44 109.22) (xy 114.3 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b76aea4-10d5-448b-8930-7ecf9dd2bb83")
 	)
 	(wire
 		(pts
@@ -2952,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 109.22) (xy 91.44 109.22)
+			(xy 80.01 109.22) (xy 114.3 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3332,16 +3306,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 109.22) (xy 91.44 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f53a6587-a03a-4034-861a-61ba002cdaab")
-	)
-	(wire
-		(pts
 			(xy 53.34 59.69) (xy 77.47 59.69)
 		)
 		(stroke
@@ -3429,84 +3393,6 @@
 			(justify left bottom)
 		)
 		(uuid "e9e17560-4b69-45c7-a84b-20aaaf1de011")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03564fc2-5541-4f75-bfcf-dca42e529e5e")
-		(property "Reference" "#PWR010"
-			(at 91.44 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "405f73f5-83b7-4021-afe9-d132b8687b04")
-		)
-		(instances
-			(project "sim_24V"
-				(path "/346af76c-4be7-4209-82c4-0da454b641fa"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:VDC")
@@ -3966,7 +3852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "300k"
+		(property "Value" "1000k"
 			(at 55.88 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4152,88 +4038,6 @@
 			(project "sim_24V"
 				(path "/346af76c-4be7-4209-82c4-0da454b641fa"
 					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bccdc79-4899-45f6-be8d-aa6131a60afc")
-		(property "Reference" "R3"
-			(at 93.98 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 93.98 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 89.662 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "10e484d6-7495-477c-bd38-971ff605a9cc")
-		)
-		(pin "1"
-			(uuid "211994a7-a001-4726-b777-628a32ab592c")
-		)
-		(instances
-			(project "sim_24V"
-				(path "/346af76c-4be7-4209-82c4-0da454b641fa"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5635,7 +5439,7 @@
 				(justify left)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=0 td=1.6 tr=1m tf=1m tw=5 per=10"
+		(property "Sim.Params" "y1=0 y2=0 td=3.2 tr=1m tf=1m tw=5 per=10"
 			(at 29.21 128.27 0)
 			(hide yes)
 			(show_name no)
