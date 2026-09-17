@@ -22,6 +22,11 @@
       "showGrid": true,
       "traces": [
         {
+          "color": "rgb(228, 26, 28)",
+          "signal": "I(R5)",
+          "trace_type": 258
+        },
+        {
           "color": "rgb(55, 126, 184)",
           "signal": "V(Net-_D1-A_)",
           "trace_type": 257
