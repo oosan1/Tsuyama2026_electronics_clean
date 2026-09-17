@@ -5,7 +5,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 10m 2 0 10m uic",
+        ".tran 10m 4 0 1m",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -22,13 +22,8 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(228, 26, 28)",
-          "signal": "I(L1)",
-          "trace_type": 258
-        },
-        {
-          "color": "rgb(77, 175, 74)",
-          "signal": "V(/COIL_P)",
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(Net-_D1-A_)",
           "trace_type": 257
         },
         {
@@ -39,6 +34,8 @@
       ]
     }
   ],
-  "user_defined_signals": [],
+  "user_defined_signals": [
+    "V(/COIL_P) - V(/COIL_N)"
+  ],
   "version": 7
 }
