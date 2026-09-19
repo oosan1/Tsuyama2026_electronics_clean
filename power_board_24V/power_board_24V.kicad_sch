@@ -4790,6 +4790,18 @@
 		)
 	)
 	(rectangle
+		(start 13.97 15.24)
+		(end 237.49 124.46)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1f77dc2b-47d6-4f8b-8e6c-0917dc0cce94")
+	)
+	(rectangle
 		(start 179.07 128.27)
 		(end 226.06 165.1)
 		(stroke
@@ -4901,6 +4913,18 @@
 			)
 		)
 		(uuid "5c1f0b39-894d-4ad7-b341-c715c27a041f")
+	)
+	(text "24Vフロントエンド"
+		(exclude_from_sim no)
+		(at 236.474 18.288 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.1875)
+			)
+			(justify right)
+		)
+		(uuid "6cdfc1c8-4b46-4e00-99e5-4a4e97b55007")
 	)
 	(text "駆動用電源"
 		(exclude_from_sim no)
@@ -5587,7 +5611,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 83.82) (xy 72.39 83.82)
+			(xy 30.48 111.76) (xy 33.02 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5657,7 +5681,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 83.82) (xy 64.77 83.82)
+			(xy 22.86 111.76) (xy 25.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6527,7 +6551,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 83.82) (xy 72.39 85.09)
+			(xy 33.02 111.76) (xy 33.02 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6897,7 +6921,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 85.09) (xy 62.23 83.82)
+			(xy 22.86 113.03) (xy 22.86 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7017,7 +7041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e38a4cd-ee89-445e-8bc5-cb5bbfea46b4")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 172.72 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7077,7 +7101,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7188,7 +7212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14284736-e6f4-4cda-9f1f-1a3a66ace175")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 212.09 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7252,7 +7276,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7390,7 +7414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15bf8a47-572c-4583-af79-35f579c87542")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 49.022 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7465,7 +7489,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7555,7 +7579,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 85.09 0)
+		(at 33.02 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7565,8 +7589,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ee02369-7c72-4404-9d0a-4881c1826386")
-		(property "Reference" "#PWR05"
-			(at 72.39 91.44 0)
+		(property "Reference" "#PWR018"
+			(at 33.02 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7577,7 +7601,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 90.17 0)
+			(at 33.02 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7587,7 +7611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 85.09 0)
+			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7598,7 +7622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 85.09 0)
+			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7609,7 +7633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 85.09 0)
+			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7625,7 +7649,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR05")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7643,7 +7667,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "207c75db-f69d-48d4-b034-c8ba0e66493c")
-		(property "Reference" "J10"
+		(property "Reference" "J1"
 			(at 147.32 24.7649 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7707,7 +7731,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J10")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7725,7 +7749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22194c9c-947d-41fe-a7e0-e3a7017c0c37")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 85.09 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7785,7 +7809,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7884,7 +7908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2246c7e7-3c38-4f40-aa31-27f52652a753")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 106.68 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7946,7 +7970,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7963,7 +7987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26cf8539-e74c-4511-b870-d53a1fdba5af")
-		(property "Reference" "R6"
+		(property "Reference" "R3"
 			(at 91.44 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8025,7 +8049,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8043,7 +8067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26d4308b-944a-427a-905f-d9b762825848")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR020"
 			(at 107.95 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8103,7 +8127,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR09")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8121,7 +8145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "293142fe-85ac-4f11-b931-b61366e58294")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR013"
 			(at 226.06 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8181,7 +8205,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR026")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8198,7 +8222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cb23658-6ee0-435e-be4a-01eaa971eebd")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR027"
 			(at 165.1 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8258,7 +8282,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR016")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8275,7 +8299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ff5de2e-0487-461c-bec0-371572e3d8e4")
-		(property "Reference" "J9"
+		(property "Reference" "J12"
 			(at 149.352 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8350,7 +8374,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J9")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -8368,7 +8392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31ee143a-c549-4be2-96cc-513c1bf9a6f9")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR026"
 			(at 87.63 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8428,7 +8452,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR07")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8445,7 +8469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3488d9a9-e9f5-41b7-96e5-050c343fbf43")
-		(property "Reference" "J11"
+		(property "Reference" "J13"
 			(at 160.782 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8520,7 +8544,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J11")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -8538,7 +8562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3974adbb-51ab-4f4b-afbd-b8508e07cc91")
-		(property "Reference" "R11"
+		(property "Reference" "R7"
 			(at 196.85 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8602,7 +8626,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "R11")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8723,7 +8747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3be71de4-fffd-42e8-8cf4-7fd8016705f6")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 66.04 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8785,7 +8809,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8793,7 +8817,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 62.23 85.09 0)
+		(at 22.86 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8803,8 +8827,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ca4d2ed-c8d1-41c1-b346-8db3193ccf5f")
-		(property "Reference" "#PWR04"
-			(at 62.23 90.17 0)
+		(property "Reference" "#PWR017"
+			(at 22.86 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +8839,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 62.103 88.9 0)
+			(at 22.733 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8825,7 +8849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 86.36 0)
+			(at 22.86 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8836,7 +8860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 86.36 0)
+			(at 22.86 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8847,7 +8871,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 62.23 85.09 0)
+			(at 22.86 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8863,7 +8887,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR04")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8880,7 +8904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "490c927c-a835-4f6b-96a5-e85c8e986ec5")
-		(property "Reference" "J8"
+		(property "Reference" "J11"
 			(at 137.922 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8955,7 +8979,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J8")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -8973,7 +8997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d1a5e4c-0e56-48c9-befb-581fbd50589f")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 101.6 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9033,7 +9057,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9144,7 +9168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5881d21a-cb93-43e2-b8cb-ade8e223d120")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR03"
 			(at 201.93 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9204,7 +9228,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR022")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9222,7 +9246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c692fcc-133c-48de-a46d-5fe640025d1c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR09"
 			(at 57.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9282,7 +9306,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR027")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9300,7 +9324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c9ca876-a1d7-41a9-af08-480261127bfa")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 163.83 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9360,7 +9384,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9483,7 +9507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6014ab3c-8b48-4fcb-9f75-d50bf9fe51ea")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 36.322 140.462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9547,7 +9571,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9565,7 +9589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61681458-92a2-4b82-a5b9-ad8cdcd8e752")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR011"
 			(at 219.71 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9625,7 +9649,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR025")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9642,7 +9666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6606563f-d661-49b6-8c0b-d51132d0b5da")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR025"
 			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9702,7 +9726,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR019")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9720,7 +9744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67f1a8d2-1b84-4d10-b3ab-6718f124a993")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 191.77 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9780,7 +9804,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9798,7 +9822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cef4291-8311-46ff-8fb1-18b3e404daa7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 46.99 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9858,7 +9882,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9875,7 +9899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75bd0772-8669-414b-b638-2b4c394df57d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR02"
 			(at 148.59 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9936,7 +9960,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR015")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9953,7 +9977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "784e2658-ce9b-4188-bd10-f7fc4de06cba")
-		(property "Reference" "J5"
+		(property "Reference" "J8"
 			(at 83.312 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10028,7 +10052,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J5")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10046,7 +10070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7922cf8e-aba7-4022-b960-d33a1b869dee")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 200.9775 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10119,7 +10143,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10137,7 +10161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b04ef2b-2dc9-49e8-93e5-1ed0a4911053")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 30.48 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10212,7 +10236,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10229,7 +10253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c9bb7e3-fcb3-4791-b08f-fc826fbad7e4")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 218.44 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10289,7 +10313,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10306,7 +10330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "805b16e5-d7b8-4f40-921f-b004821e3309")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 62.992 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10370,7 +10394,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10486,7 +10510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "852c1e30-0612-40d9-b661-cf23487628cb")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 161.036 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10550,7 +10574,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10567,7 +10591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87115095-0163-46fc-b31a-512318573e2b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR05"
 			(at 113.03 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10627,7 +10651,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR012")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10779,7 +10803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e8a2f94-d224-4eed-8c6f-a39f95a5ca4f")
-		(property "Reference" "R14"
+		(property "Reference" "R6"
 			(at 210.82 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10874,85 +10898,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 107.95 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94c7a2e7-4f65-493c-b4b5-74db299a91d1")
-		(property "Reference" "#PWR010"
-			(at 107.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 107.823 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 107.95 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "652d6f09-9f8c-462d-b7cc-e7d455c73109")
-		)
-		(instances
-			(project "power_board_24V"
-				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR010")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11226,7 +11172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e93565c-50cf-49c0-b010-397fb86cbfc8")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 71.882 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11301,7 +11247,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -11480,7 +11426,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 67.31 83.82 0)
+		(at 27.94 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11491,7 +11437,7 @@
 		(fields_autoplaced yes)
 		(uuid "b200c168-3295-4d98-bfbe-71247e22884e")
 		(property "Reference" "NT1"
-			(at 67.31 78.74 0)
+			(at 27.94 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11501,7 +11447,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 67.31 81.28 0)
+			(at 27.94 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11511,7 +11457,7 @@
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
-			(at 67.31 83.82 0)
+			(at 27.94 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11522,7 +11468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 83.82 0)
+			(at 27.94 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11533,7 +11479,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 67.31 83.82 0)
+			(at 27.94 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11570,7 +11516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b395e0c4-8071-4e37-8c2f-0a69c25971d2")
-		(property "Reference" "D1"
+		(property "Reference" "D6"
 			(at 24.13 151.4474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11656,7 +11602,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "D1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11778,7 +11724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba4fb575-60e5-4a9a-877d-1a6c79ee0423")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 76.2 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11857,7 +11803,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11875,7 +11821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb9323dd-0cc4-419d-b35a-128c0e1220fc")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 76.2 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11937,7 +11883,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11955,7 +11901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcbd27f8-65ad-4766-865a-d4c9f4c56f71")
-		(property "Reference" "R7"
+		(property "Reference" "R13"
 			(at 110.49 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12030,7 +11976,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "R7")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12048,7 +11994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c26efe83-2543-4c66-8934-2480ee2cf5ae")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 204.47 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12110,7 +12056,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12128,7 +12074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7420cfc-b49b-43c3-9577-9a9cb8bad346")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR019"
 			(at 20.32 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -12188,7 +12134,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR01")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12205,7 +12151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9db318a-f646-44d9-9725-ebba97643e3a")
-		(property "Reference" "J6"
+		(property "Reference" "J9"
 			(at 94.742 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12280,7 +12226,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J6")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -12297,7 +12243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cae17a22-3b63-429e-b344-2017cc5e280f")
-		(property "Reference" "J7"
+		(property "Reference" "J10"
 			(at 126.492 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12372,7 +12318,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J7")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -12491,7 +12437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc5e2c1a-b0a4-4601-b144-cea1dc3a3b95")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 209.55 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12551,7 +12497,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12696,7 +12642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6b5e4f5-2a85-4aeb-aa3e-37dd94f0c44e")
-		(property "Reference" "J13"
+		(property "Reference" "J3"
 			(at 166.37 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12760,7 +12706,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J13")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12778,7 +12724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbae8913-bb4d-451c-bc0c-901d6844e0d2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR014"
 			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12838,7 +12784,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR020")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12856,7 +12802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deda8ff0-5cd1-45ba-b0a8-5dcc35274660")
-		(property "Reference" "R1"
+		(property "Reference" "R12"
 			(at 22.86 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12931,7 +12877,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "R1")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13073,7 +13019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0e1ee6d-32b9-4b5e-aa9c-6554f9444c73")
-		(property "Reference" "J3"
+		(property "Reference" "J6"
 			(at 60.452 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13148,7 +13094,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -13166,7 +13112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e44b70fe-a44b-4a75-94bb-7d3a8e31bb73")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 113.03 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13226,7 +13172,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13243,7 +13189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7529ba8-c99f-416f-9b8b-6a8fbaaa7fe4")
-		(property "Reference" "J12"
+		(property "Reference" "J4"
 			(at 156.21 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13307,7 +13253,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "J12")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13325,7 +13271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7fcc2d6-2f40-41e1-a9ae-9daf24365959")
-		(property "Reference" "D3"
+		(property "Reference" "D7"
 			(at 111.76 151.4474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13411,7 +13357,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "D3")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13429,7 +13375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebe71b3e-8999-4c89-8371-f31dce603310")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR01"
 			(at 113.03 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13489,7 +13435,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR011")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -13507,7 +13453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f44ed426-34e6-4c03-9e20-96218cf8aa2f")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR010"
 			(at 137.16 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13567,7 +13513,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR014")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13585,7 +13531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa41f75d-e80b-420f-83ce-a88b03c6449a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 38.1 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13645,7 +13591,7 @@
 		(instances
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -13728,6 +13674,84 @@
 			(project "power_board_24V"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc33884c-3c0c-4b29-8742-80a9665d4321")
+		(property "Reference" "#PWR024"
+			(at 107.95 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e14e029b-7b3a-4f68-9391-d0b80d1f0e43")
+		)
+		(instances
+			(project "power_board_24V"
+				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
