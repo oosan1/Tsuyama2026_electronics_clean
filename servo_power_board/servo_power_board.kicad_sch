@@ -1586,7 +1586,7 @@
 	)
 	(text "電圧モニタ用"
 		(exclude_from_sim no)
-		(at 109.474 16.002 0)
+		(at 109.22 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2112,7 +2112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04087a9b-c7bd-41cd-9831-22125111fe48")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 140.97 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -2172,7 +2172,7 @@
 		(instances
 			(project "servo_power_board"
 				(path "/715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2267,7 +2267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bf1bf86-bc7f-40dd-99c5-1f7dc2a656e3")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 113.792 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2375,7 +2375,7 @@
 		(instances
 			(project "servo_power_board"
 				(path "/715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3332,7 +3332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ca61da2-e5a6-4881-9813-ea8f692b7208")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 135.382 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3440,7 +3440,7 @@
 		(instances
 			(project "servo_power_board"
 				(path "/715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4193,7 +4193,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6d979e2-5da6-4c6e-8e79-7398e0163320")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 125.222 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,7 +4301,7 @@
 		(instances
 			(project "servo_power_board"
 				(path "/715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4662,7 +4662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7071e54-85a3-4cf8-8314-6d007e26ad92")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 130.81 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -4722,7 +4722,7 @@
 		(instances
 			(project "servo_power_board"
 				(path "/715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5068,7 +5068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eae2d7a6-4536-4d26-b5cf-97e14d636bf6")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR011"
 			(at 107.95 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5128,7 +5128,7 @@
 		(instances
 			(project "servo_power_board"
 				(path "/715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5146,7 +5146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edd53850-2088-4d47-a991-13015060e618")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 119.38 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5206,7 +5206,7 @@
 		(instances
 			(project "servo_power_board"
 				(path "/715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5224,8 +5224,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f43914d5-22dc-48e2-a000-eb01b4dbbb95")
-		(property "Reference" "J6"
-			(at 106.68 18.4149 90)
+		(property "Reference" "J3"
+			(at 101.6 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5236,7 +5236,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 106.68 20.9549 90)
+			(at 104.14 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5288,7 +5288,7 @@
 		(instances
 			(project "servo_power_board"
 				(path "/715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
