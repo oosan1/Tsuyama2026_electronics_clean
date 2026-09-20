@@ -513,7 +513,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "power_board_24V.kicad_pro",
+    "filename": "24v_power_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -741,8 +741,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "power_board_24V.kicad_sch",
-        "name": "power_board_24V",
+        "filename": "24v_power_board.kicad_sch",
+        "name": "24v_power_board",
         "uuid": "7e933acb-f512-46a3-a247-cbd9deaf4ead"
       }
     ],
