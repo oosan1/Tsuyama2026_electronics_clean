@@ -1584,11 +1584,27 @@
 		)
 		(uuid "6285e30d-e053-4cf3-87d2-f4f334eb71a5")
 	)
+	(text "電圧モニタ用"
+		(exclude_from_sim no)
+		(at 109.474 16.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7361cf86-4789-4d43-b0d3-558ec0196575")
+	)
 	(junction
 		(at 49.53 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dbc7c6b-bb1b-4446-86ee-e1f4167ba7e6")
+	)
+	(junction
+		(at 133.35 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "211c7a63-ebaa-43a9-b3ad-263fd598f277")
 	)
 	(junction
 		(at 104.14 39.37)
@@ -1603,7 +1619,7 @@
 		(uuid "4017a7e4-279a-426b-a573-183cc1a64dc9")
 	)
 	(junction
-		(at 111.76 39.37)
+		(at 121.92 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40c37336-2110-4890-9b74-030a6d1a713d")
@@ -1613,6 +1629,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d54a955-eef2-4b85-bdbd-66c2ace3f904")
+	)
+	(junction
+		(at 110.49 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b6ecac5-8a78-4f09-b149-324cc2bf9fc2")
 	)
 	(junction
 		(at 57.15 39.37)
@@ -1631,12 +1653,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a51fb8e3-408b-46fb-a8c1-560df40921fa")
-	)
-	(junction
-		(at 123.19 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e07f45d2-7c2b-4858-b7d4-40f09786c8fa")
 	)
 	(junction
 		(at 43.18 39.37)
@@ -1663,6 +1679,16 @@
 			(type default)
 		)
 		(uuid "061af0b5-f54b-4c56-8dec-15c98f2b098d")
+	)
+	(wire
+		(pts
+			(xy 110.49 39.37) (xy 133.35 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09df7c00-3598-4019-88c7-5a47f6df1b72")
 	)
 	(wire
 		(pts
@@ -1696,13 +1722,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 39.37) (xy 111.76 39.37)
+			(xy 110.49 24.13) (xy 110.49 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20b6ebe4-e07d-4f82-b726-b0672ca568a3")
+		(uuid "1ef165a7-60e0-4a7b-a63a-19e8b61b07c8")
 	)
 	(wire
 		(pts
@@ -1726,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 24.13) (xy 109.22 25.4)
+			(xy 119.38 24.13) (xy 119.38 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1736,7 +1762,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 39.37) (xy 123.19 39.37)
+			(xy 143.51 39.37) (xy 133.35 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1753,6 +1779,16 @@
 			(type default)
 		)
 		(uuid "3d5d7a8a-5d20-4df0-ae25-f52d577c0bcd")
+	)
+	(wire
+		(pts
+			(xy 107.95 24.13) (xy 107.95 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41824faf-7c65-47d3-8bec-747b5c43cd69")
 	)
 	(wire
 		(pts
@@ -1916,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 24.13) (xy 120.65 25.4)
+			(xy 130.81 24.13) (xy 130.81 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1926,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 24.13) (xy 130.81 25.4)
+			(xy 140.97 24.13) (xy 140.97 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1936,7 +1972,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 24.13) (xy 111.76 39.37)
+			(xy 121.92 24.13) (xy 121.92 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1946,7 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 39.37) (xy 104.14 39.37)
+			(xy 104.14 39.37) (xy 110.49 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1996,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 24.13) (xy 123.19 39.37)
+			(xy 133.35 24.13) (xy 133.35 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2016,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 24.13) (xy 133.35 39.37)
+			(xy 143.51 24.13) (xy 143.51 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +2102,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 25.4 0)
+		(at 140.97 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2077,7 +2113,7 @@
 		(fields_autoplaced yes)
 		(uuid "04087a9b-c7bd-41cd-9831-22125111fe48")
 		(property "Reference" "#PWR013"
-			(at 130.81 31.75 0)
+			(at 140.97 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2088,7 +2124,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 30.48 0)
+			(at 140.97 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2098,7 +2134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 25.4 0)
+			(at 140.97 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2109,7 +2145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 25.4 0)
+			(at 140.97 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2120,7 +2156,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 25.4 0)
+			(at 140.97 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2222,7 +2258,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 109.22 19.05 90)
+		(at 119.38 19.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2232,7 +2268,7 @@
 		(dnp no)
 		(uuid "0bf1bf86-bc7f-40dd-99c5-1f7dc2a656e3")
 		(property "Reference" "J3"
-			(at 103.632 19.05 0)
+			(at 113.792 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2243,7 +2279,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 105.918 19.05 0)
+			(at 116.078 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2254,7 +2290,7 @@
 			)
 		)
 		(property "Footprint" "OU_connector:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
-			(at 109.22 19.05 0)
+			(at 119.38 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2265,7 +2301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 19.05 0)
+			(at 119.38 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2276,7 +2312,7 @@
 			)
 		)
 		(property "Description" "XT30PW-F"
-			(at 109.22 19.05 0)
+			(at 119.38 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2287,7 +2323,7 @@
 			)
 		)
 		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g117948/"
-			(at 109.22 19.05 0)
+			(at 119.38 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2298,7 +2334,7 @@
 			)
 		)
 		(property "Fuse" ""
-			(at 109.22 19.05 0)
+			(at 119.38 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2309,7 +2345,7 @@
 			)
 		)
 		(property "MPN_URL" ""
-			(at 109.22 19.05 0)
+			(at 119.38 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2320,7 +2356,7 @@
 			)
 		)
 		(property "URL" ""
-			(at 109.22 19.05 0)
+			(at 119.38 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3287,7 +3323,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 130.81 19.05 90)
+		(at 140.97 19.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3297,7 +3333,7 @@
 		(dnp no)
 		(uuid "5ca61da2-e5a6-4881-9813-ea8f692b7208")
 		(property "Reference" "J5"
-			(at 125.222 19.05 0)
+			(at 135.382 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3308,7 +3344,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 127.508 19.05 0)
+			(at 137.668 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3319,7 +3355,7 @@
 			)
 		)
 		(property "Footprint" "OU_connector:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
-			(at 130.81 19.05 0)
+			(at 140.97 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3330,7 +3366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 19.05 0)
+			(at 140.97 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3341,7 +3377,7 @@
 			)
 		)
 		(property "Description" "XT30PW-F"
-			(at 130.81 19.05 0)
+			(at 140.97 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,7 +3388,7 @@
 			)
 		)
 		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g117948/"
-			(at 130.81 19.05 0)
+			(at 140.97 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3363,7 +3399,7 @@
 			)
 		)
 		(property "Fuse" ""
-			(at 130.81 19.05 0)
+			(at 140.97 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3374,7 +3410,7 @@
 			)
 		)
 		(property "MPN_URL" ""
-			(at 130.81 19.05 0)
+			(at 140.97 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3385,7 +3421,7 @@
 			)
 		)
 		(property "URL" ""
-			(at 130.81 19.05 0)
+			(at 140.97 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4148,7 +4184,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 120.65 19.05 90)
+		(at 130.81 19.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4158,7 +4194,7 @@
 		(dnp no)
 		(uuid "a6d979e2-5da6-4c6e-8e79-7398e0163320")
 		(property "Reference" "J4"
-			(at 115.062 19.05 0)
+			(at 125.222 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4169,7 +4205,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 117.348 19.05 0)
+			(at 127.508 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4180,7 +4216,7 @@
 			)
 		)
 		(property "Footprint" "OU_connector:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
-			(at 120.65 19.05 0)
+			(at 130.81 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,7 +4227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 19.05 0)
+			(at 130.81 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4202,7 +4238,7 @@
 			)
 		)
 		(property "Description" "XT30PW-F"
-			(at 120.65 19.05 0)
+			(at 130.81 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4213,7 +4249,7 @@
 			)
 		)
 		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g117948/"
-			(at 120.65 19.05 0)
+			(at 130.81 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4224,7 +4260,7 @@
 			)
 		)
 		(property "Fuse" ""
-			(at 120.65 19.05 0)
+			(at 130.81 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4235,7 +4271,7 @@
 			)
 		)
 		(property "MPN_URL" ""
-			(at 120.65 19.05 0)
+			(at 130.81 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4246,7 +4282,7 @@
 			)
 		)
 		(property "URL" ""
-			(at 120.65 19.05 0)
+			(at 130.81 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4616,7 +4652,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 25.4 0)
+		(at 130.81 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4627,7 +4663,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7071e54-85a3-4cf8-8314-6d007e26ad92")
 		(property "Reference" "#PWR012"
-			(at 120.65 31.75 0)
+			(at 130.81 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4638,7 +4674,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 30.48 0)
+			(at 130.81 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4648,7 +4684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 25.4 0)
+			(at 130.81 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,7 +4695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 25.4 0)
+			(at 130.81 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4670,7 +4706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 25.4 0)
+			(at 130.81 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5022,7 +5058,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 25.4 0)
+		(at 107.95 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5031,9 +5067,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "edd53850-2088-4d47-a991-13015060e618")
-		(property "Reference" "#PWR011"
-			(at 109.22 31.75 0)
+		(uuid "eae2d7a6-4536-4d26-b5cf-97e14d636bf6")
+		(property "Reference" "#PWR014"
+			(at 107.95 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5044,7 +5080,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 30.48 0)
+			(at 107.95 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5054,7 +5090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 25.4 0)
+			(at 107.95 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5065,7 +5101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 25.4 0)
+			(at 107.95 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5076,7 +5112,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 25.4 0)
+			(at 107.95 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a5d2ab9-055e-47ba-b0b0-0dec40e54586")
+		)
+		(instances
+			(project "servo_power_board"
+				(path "/715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edd53850-2088-4d47-a991-13015060e618")
+		(property "Reference" "#PWR011"
+			(at 119.38 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5093,6 +5207,88 @@
 			(project "servo_power_board"
 				(path "/715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 107.95 19.05 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f43914d5-22dc-48e2-a000-eb01b4dbbb95")
+		(property "Reference" "J6"
+			(at 106.68 18.4149 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 106.68 20.9549 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OU_connector:DF1EC-2P-2.5DSA"
+			(at 107.95 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DF1EC-2P-2.5DSA"
+			(at 107.95 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa65f97f-1053-49bf-b781-f71eb8dcf0b0")
+		)
+		(pin "2"
+			(uuid "30c806cd-c12f-4065-8a90-cd381832157e")
+		)
+		(instances
+			(project "servo_power_board"
+				(path "/715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
+					(reference "J6")
 					(unit 1)
 				)
 			)
