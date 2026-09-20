@@ -7962,8 +7962,8 @@
 		(layer "Edge.Cuts")
 		(uuid "cc282929-f506-4294-beba-ebd400261d4f")
 	)
-	(gr_text "BoardID:\n TS26-PWR\n -MICON\n\nver 0.2"
-		(at 60.5 54 0)
+	(gr_text "BoardID:\n TS26-PWR-MICON"
+		(at 59.8 52.1 0)
 		(layer "F.SilkS")
 		(uuid "fb98525c-0fe2-4685-8bf7-62c4370bea06")
 		(effects
@@ -7973,6 +7973,31 @@
 				(bold yes)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "ver 0.3"
+		(at 68.8 55.8 0)
+		(layer "F.SilkS")
+		(uuid "bf571695-ef1b-49fa-9cd0-c0cd35f70249")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "岡山大学\nロボット\n研究会"
+		(at 66.9 63.4 90)
+		(layer "F.SilkS")
+		(uuid "4a80ff9e-a564-4c7b-9fb9-c9a9900b6b8f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "OUT"
