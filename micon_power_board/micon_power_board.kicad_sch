@@ -2406,7 +2406,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "DF1E-2P-2.5DS"
 			(at 95.25 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -2655,7 +2655,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2μF100V X7S"
 			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2747,7 +2747,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "DF1E-2P-2.5DS"
 			(at 60.96 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -2828,7 +2828,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "DF1E-2P-2.5DS"
 			(at 72.39 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -3498,7 +3498,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "DF1E-2P-2.5DS"
 			(at 83.82 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -3669,7 +3669,18 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "XT30PW-F"
+			(at 34.29 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g117948/"
 			(at 34.29 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3750,6 +3761,17 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 43.18 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g116378/"
 			(at 43.18 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4078,7 +4100,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "DF1E-2P-2.5DS"
 			(at 106.68 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -4160,7 +4182,18 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "XT30PW-M"
+			(at 22.86 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g117949/"
 			(at 22.86 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4411,7 +4444,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "2.2μF100V X7S"
 			(at 96.52 54.61 0)
 			(hide yes)
 			(show_name no)

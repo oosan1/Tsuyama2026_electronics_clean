@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "OU_Power") (type "KiCad") (uri "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/footprints/OU_Power.pretty") (options "") (descr ""))
 	(lib (name "OU_connector") (type "KiCad") (uri "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/footprints/OU_connector.pretty") (options "") (descr ""))
+	(lib (name "OU_Picture") (type "KiCad") (uri "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/footprints/OU_Picture.pretty") (options "") (descr ""))
 )
