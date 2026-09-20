@@ -15703,6 +15703,17 @@
 		(uuid "ab40014d-304f-44bb-87c5-436f272f6940")
 	)
 	(gr_rect
+		(start 28 50.45)
+		(end 40.5 57.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "4d78ccb3-3e81-46cd-8d6f-50f153f5a795")
+	)
+	(gr_rect
 		(start 15 16)
 		(end 115 76)
 		(radius 3.5)
@@ -15714,8 +15725,8 @@
 		(layer "Edge.Cuts")
 		(uuid "21386f2b-5af9-4201-b4d9-9878a51eebee")
 	)
-	(gr_text "BoardID:\n TS26-PWR-MAIN\n\nver 1.1"
-		(at 35.306 29.718 0)
+	(gr_text "BoardID:\n TS26-PWR-MAIN\n\nver 0.2"
+		(at 36 30 0)
 		(layer "F.SilkS")
 		(uuid "012eaaaa-5d4c-455d-98a7-327718f241b9")
 		(effects
@@ -15986,7 +15997,7 @@
 		)
 	)
 	(gr_text "2026/09/19\nDesigned by E.Yoshioka"
-		(at 62.8 40.2 0)
+		(at 61 40 0)
 		(layer "B.SilkS")
 		(uuid "40df53c5-ab9b-4b03-8dac-4abb108c7298")
 		(effects
@@ -15996,6 +16007,19 @@
 				(bold yes)
 			)
 			(justify left top mirror)
+		)
+	)
+	(gr_text "No."
+		(at 45.7 57.2 0)
+		(layer "B.SilkS" knockout)
+		(uuid "8dbd7fbc-3554-40bb-b5d2-44e5026b29fa")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(via
