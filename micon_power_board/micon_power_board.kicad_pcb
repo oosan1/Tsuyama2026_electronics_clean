@@ -7055,9 +7055,9 @@
 		(descr "Connector XT30 Horizontal PCB Female, https://www.tme.eu/Document/f383737e340bfdab1f665284174b4ea2/XT30PW-F.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J7"
-			(at 5.524 3.048 90)
+			(at -3.366 1.524 90)
 			(layer "F.SilkS")
-			(uuid "1815e52c-f5a6-4250-ac05-a6fbc4c2afde")
+			(uuid "32ddbd7f-333b-4c4c-867d-ecef2f5465ff")
 			(effects
 				(font
 					(size 1 1)
@@ -7068,7 +7068,7 @@
 		(property "Value" "Conn_01x02_Socket"
 			(at 2.5 3.5 90)
 			(layer "F.Fab")
-			(uuid "ab3c7936-cb9d-4d2a-b99c-74ce434af4df")
+			(uuid "5595f1cb-f2fb-4a59-82e5-69bf26b66d9b")
 			(effects
 				(font
 					(size 1 1)
@@ -7081,7 +7081,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62d26470-8275-472c-ad09-4790915ae512")
+			(uuid "bf2d803a-a6ee-4bfc-a945-6692b5f60d3c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7094,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eacd5ed9-f621-4c5b-9767-fb7a817bcc29")
+			(uuid "f0bef3d2-6592-4f01-b5f0-48097af0a966")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7962,7 +7962,7 @@
 		(layer "Edge.Cuts")
 		(uuid "cc282929-f506-4294-beba-ebd400261d4f")
 	)
-	(gr_text "BoardID:\n TS26-PWR\n -MICON\n\nver 0.1"
+	(gr_text "BoardID:\n TS26-PWR\n -MICON\n\nver 0.2"
 		(at 60.5 54 0)
 		(layer "F.SilkS")
 		(uuid "fb98525c-0fe2-4685-8bf7-62c4370bea06")
