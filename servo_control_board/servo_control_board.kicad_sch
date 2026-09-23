@@ -5549,7 +5549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8f28e1f-a3f2-4048-a1ef-4808d66d5e55")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 152.4 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5609,7 +5609,7 @@
 		(instances
 			(project "servo_control_board"
 				(path "/513b22f8-6087-410c-ac00-1a70f49ac862"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5804,7 +5804,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 29.21 119.38 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5814,7 +5813,7 @@
 		(dnp no)
 		(uuid "b540b74e-7a25-472d-b571-0d0a82105191")
 		(property "Reference" "J2"
-			(at 29.21 110.744 0)
+			(at 29.21 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5824,7 +5823,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 29.21 113.538 0)
+			(at 29.21 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6439,7 +6438,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 29.21 45.72 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6449,7 +6447,7 @@
 		(dnp no)
 		(uuid "d5dfdb90-2139-404a-aef2-29807b0a8f7b")
 		(property "Reference" "J1"
-			(at 29.21 37.084 0)
+			(at 29.21 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6459,7 +6457,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 29.21 39.878 0)
+			(at 29.21 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6687,7 +6685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0349677-aadf-4b2a-bdd7-a63d28b81f1a")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 152.4 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6747,7 +6745,7 @@
 		(instances
 			(project "servo_control_board"
 				(path "/513b22f8-6087-410c-ac00-1a70f49ac862"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
