@@ -734,6 +734,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -746,13 +754,13 @@
         "uuid": "7e933acb-f512-46a3-a247-cbd9deaf4ead"
       }
     ],
-    "used_designators": "J1-25,F1-2,U1-2,Q1-3,#PWR1-29,D1-7,C1-5,C12,R1-15,K1-2,DZ1,NT1,RV1",
+    "used_designators": "J1-25,F1-2,U1-2,Q1-3,#PWR1-29,D1-7,C1-5,C12,TP1-5,R1-15,K1-2,DZ1,NT1,RV1",
     "variants": []
   },
   "sheets": [
     [
       "7e933acb-f512-46a3-a247-cbd9deaf4ead",
-      "power_board_24V"
+      "24v_power_board"
     ]
   ],
   "text_variables": {},

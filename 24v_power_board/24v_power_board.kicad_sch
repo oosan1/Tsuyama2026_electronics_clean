@@ -632,6 +632,289 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_2Pole"
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_2Pole"
+				(at 0 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2-polar test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_2Pole_0_1"
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -4791,7 +5074,7 @@
 	)
 	(rectangle
 		(start 13.97 15.24)
-		(end 237.49 124.46)
+		(end 247.65 124.46)
 		(stroke
 			(width 0)
 			(type solid)
@@ -4892,6 +5175,16 @@
 		)
 		(uuid "36a3d411-bb85-42de-92f6-9a10cc97e34e")
 	)
+	(text "なるべくネットタイの近くに配置"
+		(exclude_from_sim no)
+		(at 43.434 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "433d7f33-8ac0-4cb0-bd26-e7123babbef1")
+	)
 	(text "制御用電源"
 		(exclude_from_sim no)
 		(at 174.498 131.064 0)
@@ -4950,7 +5243,7 @@
 	)
 	(text "プリチャージ用"
 		(exclude_from_sim no)
-		(at 213.868 66.802 0)
+		(at 218.186 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5012,6 +5305,12 @@
 			)
 		)
 		(uuid "ffdab0e3-3376-4ef0-85ae-3765387c7699")
+	)
+	(junction
+		(at 25.4 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05b9e894-12d6-43d5-bddd-b26bd07e75fd")
 	)
 	(junction
 		(at 55.88 154.94)
@@ -5092,7 +5391,7 @@
 		(uuid "52267a4f-fb90-41b0-9b2b-6d291349fcf5")
 	)
 	(junction
-		(at 226.06 76.2)
+		(at 236.22 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56e5ca9d-bcd9-4dd4-a5f9-97c6957f4443")
@@ -5128,10 +5427,22 @@
 		(uuid "764035d9-3d9a-46e5-a669-47e4bdb08a72")
 	)
 	(junction
+		(at 111.76 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79487f68-4e99-4e23-b4a7-f6ec495888f7")
+	)
+	(junction
 		(at 71.12 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c2aafe0-4ee9-443c-b808-3e3439813e50")
+	)
+	(junction
+		(at 43.18 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "815e2f14-9ca3-4d50-81d3-6e1c3d696924")
 	)
 	(junction
 		(at 57.15 35.56)
@@ -5188,7 +5499,7 @@
 		(uuid "c288834a-5c90-47f7-8b56-e64a8c68df20")
 	)
 	(junction
-		(at 185.42 66.04)
+		(at 195.58 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7038c5d-aca5-42ac-97a9-9b4bb21f8da4")
@@ -5230,7 +5541,7 @@
 		(uuid "dbebbf96-ace6-48a3-a192-8c18520aa349")
 	)
 	(junction
-		(at 194.31 66.04)
+		(at 204.47 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dda4b37e-92ca-4dd0-9d0a-47d7a83816a8")
@@ -5260,13 +5571,13 @@
 		(uuid "f391d4fd-5599-40a7-b62c-d682d36bd3f8")
 	)
 	(junction
-		(at 194.31 76.2)
+		(at 204.47 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb0a2eba-24a3-444e-ab18-6f54e5778014")
 	)
 	(junction
-		(at 185.42 91.44)
+		(at 195.58 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe75f131-0633-4438-86ef-de82272653f3")
@@ -5278,6 +5589,16 @@
 	(no_connect
 		(at 172.72 40.64)
 		(uuid "aa12a2f3-b2b3-4f45-8ffc-2f043de0306c")
+	)
+	(wire
+		(pts
+			(xy 111.76 135.89) (xy 111.76 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00175309-42d9-4d6b-a48b-ab5e979fc770")
 	)
 	(wire
 		(pts
@@ -5311,7 +5632,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 76.2) (xy 226.06 76.2)
+			(xy 218.44 76.2) (xy 236.22 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5321,7 +5642,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 96.52) (xy 226.06 97.79)
+			(xy 236.22 96.52) (xy 236.22 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5421,7 +5742,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 90.17) (xy 185.42 91.44)
+			(xy 195.58 90.17) (xy 195.58 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5471,7 +5792,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 91.44) (xy 185.42 91.44)
+			(xy 172.72 91.44) (xy 228.6 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5621,7 +5942,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 66.04) (xy 185.42 66.04)
+			(xy 25.4 135.89) (xy 25.4 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d042289-8b1f-47a4-9d51-a451d86e8147")
+	)
+	(wire
+		(pts
+			(xy 172.72 66.04) (xy 204.47 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5661,13 +5992,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 92.71) (xy 185.42 91.44)
+			(xy 195.58 92.71) (xy 195.58 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36e1959d-289b-44c9-9bff-745bb3e5dd3a")
+	)
+	(wire
+		(pts
+			(xy 36.83 114.3) (xy 36.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9ead87-a216-4d82-93f4-b40caeaa0676")
 	)
 	(wire
 		(pts
@@ -5691,7 +6032,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 66.04) (xy 194.31 67.31)
+			(xy 204.47 66.04) (xy 204.47 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5711,7 +6052,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 137.16) (xy 116.84 137.16)
+			(xy 107.95 137.16) (xy 111.76 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5771,7 +6112,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 100.33) (xy 185.42 102.87)
+			(xy 195.58 100.33) (xy 195.58 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5808,6 +6149,16 @@
 			(type default)
 		)
 		(uuid "50240fd1-e916-4edf-b329-9bd021515ba2")
+	)
+	(wire
+		(pts
+			(xy 49.53 114.3) (xy 43.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511ba229-8ba0-45cc-b162-cf06c53a29ff")
 	)
 	(wire
 		(pts
@@ -5941,6 +6292,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 96.52) (xy 173.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67722209-b64d-4327-9105-09ab3c4e55e9")
+	)
+	(wire
+		(pts
 			(xy 167.64 46.99) (xy 167.64 48.26)
 		)
 		(stroke
@@ -5951,7 +6312,17 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 66.04) (xy 207.01 66.04)
+			(xy 111.76 137.16) (xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68524a8e-4e67-4df7-83c0-a76b566b55fd")
+	)
+	(wire
+		(pts
+			(xy 214.63 66.04) (xy 217.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6101,6 +6472,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 137.16) (xy 30.48 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab4857f-fd97-4601-9ba5-f09da5270c67")
+	)
+	(wire
+		(pts
 			(xy 67.31 154.94) (xy 67.31 139.7)
 		)
 		(stroke
@@ -6171,7 +6552,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 194.31 76.2)
+			(xy 43.18 115.57) (xy 43.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88406677-f25e-493e-b093-ba3bb0daf43e")
+	)
+	(wire
+		(pts
+			(xy 203.2 76.2) (xy 204.47 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6271,7 +6662,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 74.93) (xy 194.31 76.2)
+			(xy 204.47 74.93) (xy 204.47 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6311,6 +6702,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 114.3) (xy 36.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e724b3-79a7-42ce-a6fc-9d2c4969b7c3")
+	)
+	(wire
+		(pts
 			(xy 87.63 139.7) (xy 87.63 157.48)
 		)
 		(stroke
@@ -6321,7 +6722,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 48.26) (xy 193.04 48.26)
+			(xy 193.04 48.26) (xy 236.22 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6341,7 +6742,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 76.2) (xy 200.66 76.2)
+			(xy 204.47 76.2) (xy 210.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6371,7 +6772,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 66.04) (xy 185.42 71.12)
+			(xy 195.58 66.04) (xy 195.58 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6431,7 +6832,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 66.04) (xy 219.71 66.04)
+			(xy 224.79 66.04) (xy 229.87 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6501,7 +6902,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 185.42 82.55)
+			(xy 36.83 111.76) (xy 38.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76cee53-5f75-47dc-b130-a1c97cf7e45b")
+	)
+	(wire
+		(pts
+			(xy 195.58 81.28) (xy 195.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6601,7 +7012,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 66.04) (xy 196.85 66.04)
+			(xy 204.47 66.04) (xy 207.01 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6628,6 +7039,16 @@
 			(type default)
 		)
 		(uuid "c888def1-9906-47b0-aaaf-be1696446b08")
+	)
+	(wire
+		(pts
+			(xy 49.53 111.76) (xy 49.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa483a2-0900-4d8e-965d-311a4fdef1be")
 	)
 	(wire
 		(pts
@@ -6671,16 +7092,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 91.44) (xy 218.44 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1401c6a-21a5-4c21-8ad2-92c32cb3df10")
-	)
-	(wire
-		(pts
 			(xy 107.95 154.94) (xy 107.95 156.21)
 		)
 		(stroke
@@ -6701,7 +7112,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 76.2) (xy 226.06 86.36)
+			(xy 236.22 76.2) (xy 236.22 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6711,7 +7122,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 137.16) (xy 30.48 137.16)
+			(xy 20.32 137.16) (xy 25.4 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6731,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 48.26) (xy 226.06 76.2)
+			(xy 236.22 48.26) (xy 236.22 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6931,16 +7342,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 66.04) (xy 194.31 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb868cf2-e34f-4d85-9ebd-d31faa045a57")
-	)
-	(wire
-		(pts
 			(xy 96.52 35.56) (xy 96.52 39.37)
 		)
 		(stroke
@@ -6961,7 +7362,17 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 66.04) (xy 219.71 64.77)
+			(xy 48.26 111.76) (xy 49.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8cef88-92a9-46ee-a776-7bafc3fdfd41")
+	)
+	(wire
+		(pts
+			(xy 229.87 66.04) (xy 229.87 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7099,7 +7510,7 @@
 			(uuid "0fa03dba-b198-491d-a86b-c39b7beee9b4")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR015")
 					(unit 1)
@@ -7108,7 +7519,86 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Connector:TestPoint_Probe")
+		(at 173.99 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10a20600-effb-4aab-b3e2-3e8113ad466e")
+		(property "Reference" "TP1"
+			(at 177.8 93.6624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 177.8 96.2024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 179.07 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 173.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a299028-712c-4c43-8e82-7f307bb57234")
+		)
+		(instances
+			(project "24v_power_board"
+				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 172.72 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -7141,7 +7631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"
 			(at 173.6852 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7163,7 +7653,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
 			(at 172.72 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7174,7 +7664,7 @@
 				)
 			)
 		)
-		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g117897/"
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g108155/"
 			(at 172.72 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7192,7 +7682,7 @@
 			(uuid "798d184d-e133-479a-8829-f2b48eb3a4e8")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "C4")
 					(unit 1)
@@ -7274,7 +7764,7 @@
 			(uuid "8e9e2c33-3ca0-4a19-92c1-133ab39c9878")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R14")
 					(unit 1)
@@ -7284,7 +7774,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2SA1015")
-		(at 187.96 76.2 180)
+		(at 198.12 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7295,7 +7785,7 @@
 		(fields_autoplaced yes)
 		(uuid "142bea31-4c9d-457c-9200-a69944189fe4")
 		(property "Reference" "Q1"
-			(at 182.88 74.9299 0)
+			(at 193.04 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7306,7 +7796,7 @@
 			)
 		)
 		(property "Value" "2SA1015"
-			(at 182.88 77.4699 0)
+			(at 193.04 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7317,7 +7807,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 182.88 74.295 0)
+			(at 193.04 74.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7330,7 +7820,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf"
-			(at 187.96 76.2 0)
+			(at 198.12 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7342,7 +7832,7 @@
 			)
 		)
 		(property "Description" "-0.15A Ic, -50V Vce, Low Noise Audio PNP Transistor, TO-92"
-			(at 187.96 76.2 0)
+			(at 198.12 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7353,7 +7843,7 @@
 			)
 		)
 		(property "Sim.Device" "PNP"
-			(at 187.96 76.2 0)
+			(at 198.12 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7364,7 +7854,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 187.96 76.2 0)
+			(at 198.12 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7375,7 +7865,7 @@
 			)
 		)
 		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g117091/"
-			(at 187.96 76.2 0)
+			(at 198.12 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7395,7 +7885,7 @@
 			(uuid "0a92ef8e-198f-4c4b-96e5-8a2b427da8f7")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "Q1")
 					(unit 1)
@@ -7487,7 +7977,7 @@
 			(uuid "d3eb58ce-9ddf-4857-adcd-2f00d4f7fb93")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J5")
 					(unit 1)
@@ -7497,7 +7987,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 185.42 86.36 0)
+		(at 195.58 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7508,7 +7998,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a3cafd2-2b80-42cc-8a03-6264277b847e")
 		(property "Reference" "R10"
-			(at 187.96 85.0899 0)
+			(at 198.12 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7519,7 +8009,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 187.96 87.6299 0)
+			(at 198.12 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7530,7 +8020,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 183.642 86.36 90)
+			(at 193.802 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7541,7 +8031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 86.36 0)
+			(at 195.58 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7552,7 +8042,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 185.42 86.36 0)
+			(at 195.58 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7569,7 +8059,7 @@
 			(uuid "14eec5ba-8faa-4dfd-8bbb-ad6d54e257ba")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R10")
 					(unit 1)
@@ -7647,7 +8137,7 @@
 			(uuid "ad3457ac-07d0-4023-a081-2f3245050c71")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR018")
 					(unit 1)
@@ -7729,7 +8219,7 @@
 			(uuid "768602d1-dbf1-4672-9a25-787a9d6b947e")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J1")
 					(unit 1)
@@ -7807,7 +8297,7 @@
 			(uuid "cc0cdc1c-7b03-4b58-89b8-da8d98990d09")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR07")
 					(unit 1)
@@ -7888,7 +8378,7 @@
 			(uuid "9907c0d6-bdfe-461b-8ab2-d6c701670e12")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R9")
 					(unit 1)
@@ -7968,7 +8458,7 @@
 			(uuid "c7ce305b-bc85-4a47-af74-5c3eb7aa666d")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "C1")
 					(unit 1)
@@ -8047,7 +8537,7 @@
 			(uuid "aebd94b1-35e2-4273-8bb0-a163d8406fed")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R3")
 					(unit 1)
@@ -8067,7 +8557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26d4308b-944a-427a-905f-d9b762825848")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 107.95 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8125,9 +8615,9 @@
 			(uuid "c51e1067-2f24-4fe9-aea6-7863b06183ba")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8135,7 +8625,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 226.06 97.79 0)
+		(at 236.22 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8146,7 +8636,7 @@
 		(fields_autoplaced yes)
 		(uuid "293142fe-85ac-4f11-b931-b61366e58294")
 		(property "Reference" "#PWR013"
-			(at 226.06 102.87 0)
+			(at 236.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8157,7 +8647,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 225.933 101.6 0)
+			(at 236.093 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8167,7 +8657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 99.06 0)
+			(at 236.22 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8178,7 +8668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 99.06 0)
+			(at 236.22 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8189,7 +8679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 226.06 97.79 0)
+			(at 236.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8203,7 +8693,7 @@
 			(uuid "337765d1-266c-4698-87bc-a583e067a7bc")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR013")
 					(unit 1)
@@ -8222,7 +8712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cb23658-6ee0-435e-be4a-01eaa971eebd")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 165.1 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8280,9 +8770,9 @@
 			(uuid "4e3e80b2-71fc-406d-ab85-1034ccdfb6d4")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8372,7 +8862,7 @@
 			(uuid "6f8327a8-cf31-436b-8f55-ee64cc01c119")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J12")
 					(unit 1)
@@ -8392,7 +8882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31ee143a-c549-4be2-96cc-513c1bf9a6f9")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 87.63 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8450,9 +8940,9 @@
 			(uuid "4d6e429c-2594-4628-bfbf-a377fc08cc10")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8542,7 +9032,7 @@
 			(uuid "45ab7e22-dc4a-41bc-bcaa-83a870ea7972")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J13")
 					(unit 1)
@@ -8552,7 +9042,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 71.12 0)
+		(at 204.47 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8563,7 +9053,7 @@
 		(fields_autoplaced yes)
 		(uuid "3974adbb-51ab-4f4b-afbd-b8508e07cc91")
 		(property "Reference" "R7"
-			(at 196.85 69.8499 0)
+			(at 207.01 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8574,7 +9064,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 196.85 72.3899 0)
+			(at 207.01 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8585,7 +9075,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 192.532 71.12 90)
+			(at 202.692 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8596,7 +9086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 71.12 0)
+			(at 204.47 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8607,7 +9097,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 71.12 0)
+			(at 204.47 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8624,7 +9114,7 @@
 			(uuid "f6908379-5815-409a-b9dd-86734b65eb1d")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R7")
 					(unit 1)
@@ -8728,7 +9218,7 @@
 			(uuid "3a38b599-515b-4420-9aa0-f9ee30181055")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "D2")
 					(unit 1)
@@ -8807,7 +9297,7 @@
 			(uuid "306e8fa5-140f-4cb7-acc6-b518df09d014")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R4")
 					(unit 1)
@@ -8885,9 +9375,89 @@
 			(uuid "ffe665b2-7152-4d6d-bbce-71ff47275640")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 43.18 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45bdae5b-84d9-4792-a045-0480b6910c9e")
+		(property "Reference" "TP2"
+			(at 43.18 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_2Pole"
+			(at 43.18 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 43.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 43.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e1cbf2a7-de8d-4854-8cd0-f4426b74a73c")
+		)
+		(pin "1"
+			(uuid "038b8ae9-3270-485d-a44b-d50966e44a0e")
+		)
+		(instances
+			(project "24v_power_board"
+				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -8977,7 +9547,7 @@
 			(uuid "74026c93-0493-4053-8cd7-f06969b424cd")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J11")
 					(unit 1)
@@ -9055,7 +9625,7 @@
 			(uuid "75021ab1-772e-4daf-b3da-b9a7434ca26d")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR06")
 					(unit 1)
@@ -9148,7 +9718,7 @@
 			(uuid "17246d0e-c9f1-443d-af26-b9a10218a189")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R2")
 					(unit 1)
@@ -9226,7 +9796,7 @@
 			(uuid "ba2ea0b7-b9bb-42f9-9abc-05ea56a75edc")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR03")
 					(unit 1)
@@ -9304,7 +9874,7 @@
 			(uuid "a8ee5eb0-52a4-4e64-9c36-4520c87fb3a6")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR09")
 					(unit 1)
@@ -9382,7 +9952,7 @@
 			(uuid "963c7412-aa8b-4d42-8187-799c2e735842")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR016")
 					(unit 1)
@@ -9488,7 +10058,7 @@
 			(uuid "46c1e196-14ef-4e94-add3-e4baed5026a3")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "U1")
 					(unit 1)
@@ -9569,7 +10139,7 @@
 			(uuid "500870fe-82d8-4731-9a7c-aff83ca40e3c")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "D5")
 					(unit 1)
@@ -9579,7 +10149,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 219.71 64.77 0)
+		(at 229.87 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9590,7 +10160,7 @@
 		(fields_autoplaced yes)
 		(uuid "61681458-92a2-4b82-a5b9-ad8cdcd8e752")
 		(property "Reference" "#PWR011"
-			(at 219.71 68.58 0)
+			(at 229.87 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9601,7 +10171,7 @@
 			)
 		)
 		(property "Value" "+24V_DRV"
-			(at 219.71 59.69 0)
+			(at 229.87 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9611,7 +10181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 64.77 0)
+			(at 229.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9622,7 +10192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 64.77 0)
+			(at 229.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9633,7 +10203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 219.71 64.77 0)
+			(at 229.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9647,7 +10217,7 @@
 			(uuid "89f35280-4b97-43ef-a354-156e43706f7a")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR011")
 					(unit 1)
@@ -9666,7 +10236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6606563f-d661-49b6-8c0b-d51132d0b5da")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9724,9 +10294,9 @@
 			(uuid "c172e22a-77d9-451c-85f5-a088fa9f8698")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9744,7 +10314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67f1a8d2-1b84-4d10-b3ab-6718f124a993")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 191.77 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9802,9 +10372,9 @@
 			(uuid "f1484d75-0859-4c33-bd2c-e523b5cc20c9")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9880,7 +10450,7 @@
 			(uuid "4d7b50fb-fc0a-43d4-b47d-d38f95ac85d5")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR08")
 					(unit 1)
@@ -9958,7 +10528,7 @@
 			(uuid "0326f70f-90d9-4016-8ad2-29eada3ac6f9")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR02")
 					(unit 1)
@@ -10050,7 +10620,7 @@
 			(uuid "ddc44cc3-8925-4283-b411-0e419fc869bf")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J8")
 					(unit 1)
@@ -10060,7 +10630,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 200.66 66.04 180)
+		(at 210.82 66.04 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10071,7 +10641,7 @@
 		(fields_autoplaced yes)
 		(uuid "7922cf8e-aba7-4022-b960-d33a1b869dee")
 		(property "Reference" "D3"
-			(at 200.9775 59.69 0)
+			(at 211.1375 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10081,7 +10651,7 @@
 			)
 		)
 		(property "Value" "SM340A"
-			(at 200.9775 62.23 0)
+			(at 211.1375 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10091,7 +10661,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 200.66 66.04 0)
+			(at 210.82 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10102,7 +10672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 66.04 0)
+			(at 210.82 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10113,7 +10683,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 200.66 66.04 0)
+			(at 210.82 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10124,7 +10694,7 @@
 			)
 		)
 		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g109915/"
-			(at 200.66 66.04 0)
+			(at 210.82 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10141,7 +10711,7 @@
 			(uuid "413e642e-9b6b-4454-89dc-d031d68a8a78")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "D3")
 					(unit 1)
@@ -10234,7 +10804,7 @@
 			(uuid "07b500cb-1af7-4354-8ac8-614f59bda60f")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J2")
 					(unit 1)
@@ -10253,7 +10823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c9bb7e3-fcb3-4791-b08f-fc826fbad7e4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 218.44 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10311,9 +10881,9 @@
 			(uuid "22632ea2-34ca-41ab-ac87-3595d7bb0647")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10392,7 +10962,7 @@
 			(uuid "c7487ff2-99a0-4285-9912-64cc585dab69")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "D1")
 					(unit 1)
@@ -10402,7 +10972,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BS170")
-		(at 223.52 91.44 0)
+		(at 233.68 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10413,7 +10983,7 @@
 		(fields_autoplaced yes)
 		(uuid "84e91e3f-9fa8-45e9-97a0-a35add8553da")
 		(property "Reference" "Q2"
-			(at 229.87 90.1699 0)
+			(at 240.03 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10424,7 +10994,7 @@
 			)
 		)
 		(property "Value" "BS170"
-			(at 229.87 92.7099 0)
+			(at 240.03 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10435,7 +11005,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 228.6 93.345 0)
+			(at 238.76 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10448,7 +11018,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
-			(at 228.6 95.25 0)
+			(at 238.76 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10460,7 +11030,7 @@
 			)
 		)
 		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
-			(at 223.52 91.44 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10471,7 +11041,7 @@
 			)
 		)
 		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g109724/"
-			(at 223.52 91.44 0)
+			(at 233.68 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10491,7 +11061,7 @@
 			(uuid "ac7f17f4-d6d5-4d5d-adee-3c503aea879a")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "Q2")
 					(unit 1)
@@ -10572,7 +11142,7 @@
 			(uuid "374e886d-d97f-4837-b61a-7d65139d3579")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R11")
 					(unit 1)
@@ -10649,7 +11219,7 @@
 			(uuid "fe60a245-8d0e-4cb7-8b6c-dfebc3794028")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR05")
 					(unit 1)
@@ -10783,7 +11353,7 @@
 			(uuid "5f97a699-4b43-4e62-938d-0e114807ab7f")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "K1")
 					(unit 1)
@@ -10793,7 +11363,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 66.04 90)
+		(at 220.98 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10804,7 +11374,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e8a2f94-d224-4eed-8c6f-a39f95a5ca4f")
 		(property "Reference" "R6"
-			(at 210.82 59.69 90)
+			(at 220.98 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10814,7 +11384,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 210.82 62.23 90)
+			(at 220.98 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10824,7 +11394,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P7.62mm_Vertical"
-			(at 210.82 67.818 90)
+			(at 220.98 67.818 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10835,7 +11405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 66.04 0)
+			(at 220.98 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10846,7 +11416,7 @@
 			)
 		)
 		(property "Description" "5W10Ω"
-			(at 210.82 66.04 0)
+			(at 220.98 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10857,7 +11427,7 @@
 			)
 		)
 		(property "Fuse" ""
-			(at 210.82 66.04 90)
+			(at 220.98 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10868,7 +11438,7 @@
 			)
 		)
 		(property "MPN_URL" ""
-			(at 210.82 66.04 90)
+			(at 220.98 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10879,7 +11449,7 @@
 			)
 		)
 		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g103991/"
-			(at 210.82 66.04 90)
+			(at 220.98 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10896,7 +11466,7 @@
 			(uuid "42120973-98a8-434d-8985-dcba98902bd1")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R6")
 					(unit 1)
@@ -10975,7 +11545,7 @@
 			(uuid "810020d2-571f-4f33-90a5-ed03c903f505")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R5")
 					(unit 1)
@@ -10985,7 +11555,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_Zener_AKL:D_Zener_Generic")
-		(at 185.42 96.52 90)
+		(at 195.58 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10995,7 +11565,7 @@
 		(dnp no)
 		(uuid "960f19d1-96a2-4db1-8349-38672a372097")
 		(property "Reference" "DZ1"
-			(at 191.516 94.234 0)
+			(at 201.676 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11006,7 +11576,7 @@
 			)
 		)
 		(property "Value" "BZX55C9V1"
-			(at 188.976 94.234 0)
+			(at 199.136 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11017,7 +11587,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp"
-			(at 185.42 96.52 0)
+			(at 195.58 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11028,7 +11598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 96.52 0)
+			(at 195.58 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11039,7 +11609,7 @@
 			)
 		)
 		(property "Description" "Zener diode, generic symbol, Alternate KiCAD Library"
-			(at 185.42 96.52 0)
+			(at 195.58 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11050,7 +11620,7 @@
 			)
 		)
 		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g115721/"
-			(at 185.42 96.52 0)
+			(at 195.58 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11067,9 +11637,87 @@
 			(uuid "748decc8-ee71-471e-91a3-5211446be6d4")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "DZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 25.4 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96530dbb-7cd8-4eca-a9b0-9bfa85db3591")
+		(property "Reference" "TP3"
+			(at 29.464 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 29.464 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 30.48 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 25.4 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "606d3342-201e-44c9-8fdb-ffe0bea644fa")
+		)
+		(instances
+			(project "24v_power_board"
+				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -11153,7 +11801,7 @@
 			(uuid "7dd899e9-de0a-45b6-85aa-c15e94805e68")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J15")
 					(unit 1)
@@ -11245,7 +11893,7 @@
 			(uuid "15d3acfa-9dfd-43e7-898a-b39ab5ea4dd2")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J7")
 					(unit 1)
@@ -11324,9 +11972,87 @@
 			(uuid "4aee0322-371f-4b4c-b4d5-00c738a397a4")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a36f5d0e-f437-4d3b-961d-840d643a615f")
+		(property "Reference" "#PWR019"
+			(at 43.18 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3178979-f00e-4c54-807f-3835140095bf")
+		)
+		(instances
+			(project "24v_power_board"
+				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11416,7 +12142,7 @@
 			(uuid "43ed16e7-8425-486f-a455-adef9b7a6dcc")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J14")
 					(unit 1)
@@ -11496,7 +12222,7 @@
 			(uuid "7419dc8a-dd70-43e8-a654-2cf15c78eaa2")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "NT1")
 					(unit 1)
@@ -11600,7 +12326,7 @@
 			(uuid "ceb22b4b-5a76-4fed-9e30-23cbfaa53858")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "D6")
 					(unit 1)
@@ -11704,7 +12430,7 @@
 			(uuid "f0b087fa-2be9-40f1-9f4d-9a5090169450")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "F1")
 					(unit 1)
@@ -11801,7 +12527,7 @@
 			(uuid "64b327ec-f11d-42ce-a557-4dab1ae33654")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R1")
 					(unit 1)
@@ -11881,7 +12607,7 @@
 			(uuid "b797937f-d9a4-474a-817e-4c7bbebf4081")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "C3")
 					(unit 1)
@@ -11974,7 +12700,7 @@
 			(uuid "7522cca1-0a2f-490f-9f03-27debf2c5295")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R13")
 					(unit 1)
@@ -11984,7 +12710,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 76.2 90)
+		(at 214.63 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11995,7 +12721,7 @@
 		(fields_autoplaced yes)
 		(uuid "c26efe83-2543-4c66-8934-2480ee2cf5ae")
 		(property "Reference" "R8"
-			(at 204.47 69.85 90)
+			(at 214.63 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12005,7 +12731,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 204.47 72.39 90)
+			(at 214.63 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12015,7 +12741,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 204.47 77.978 90)
+			(at 214.63 77.978 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12026,7 +12752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 76.2 0)
+			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12037,7 +12763,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 204.47 76.2 0)
+			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12054,7 +12780,7 @@
 			(uuid "a1f197ec-26c0-4e88-9b50-30a6b79f5d27")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R8")
 					(unit 1)
@@ -12074,7 +12800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7420cfc-b49b-43c3-9577-9a9cb8bad346")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 20.32 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -12132,9 +12858,9 @@
 			(uuid "a4fb1fe1-23ea-4cf7-88e5-1ca28896c5bc")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12224,7 +12950,7 @@
 			(uuid "2e23338e-5772-4f04-baac-7b4ced0c9173")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J9")
 					(unit 1)
@@ -12316,7 +13042,7 @@
 			(uuid "ef43506a-8ad5-4eb4-af48-ff983ae42140")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J10")
 					(unit 1)
@@ -12418,7 +13144,7 @@
 			(uuid "f63eb426-14c0-4179-8810-88e1114988ab")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "F2")
 					(unit 1)
@@ -12437,7 +13163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc5e2c1a-b0a4-4601-b144-cea1dc3a3b95")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 209.55 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12495,9 +13221,9 @@
 			(uuid "7e0413c5-8e1e-44e9-8ffa-8442448d0138")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12623,7 +13349,7 @@
 			(uuid "cdb516e9-7da6-468a-97de-09d664c0ee8c")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "RV1")
 					(unit 1)
@@ -12704,7 +13430,7 @@
 			(uuid "d3a379ad-4390-4031-adc3-e91a7c810a54")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J3")
 					(unit 1)
@@ -12714,7 +13440,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 185.42 102.87 0)
+		(at 195.58 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12725,7 +13451,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbae8913-bb4d-451c-bc0c-901d6844e0d2")
 		(property "Reference" "#PWR014"
-			(at 185.42 107.95 0)
+			(at 195.58 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12736,7 +13462,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 185.293 106.68 0)
+			(at 195.453 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12746,7 +13472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 104.14 0)
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12757,7 +13483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 104.14 0)
+			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12768,7 +13494,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 185.42 102.87 0)
+			(at 195.58 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12782,7 +13508,7 @@
 			(uuid "89a2d618-2078-4c04-856b-89d6fd51dcf7")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR014")
 					(unit 1)
@@ -12875,7 +13601,7 @@
 			(uuid "d10ff25c-e40b-4227-bb1e-f4a8511ce30c")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R12")
 					(unit 1)
@@ -13000,7 +13726,7 @@
 			(uuid "318d4b1c-4fd3-4b78-adcf-e111d3b0f5c5")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "D4")
 					(unit 1)
@@ -13092,7 +13818,7 @@
 			(uuid "a8181d44-a51b-4f74-8506-5345ccef303a")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J6")
 					(unit 1)
@@ -13170,7 +13896,7 @@
 			(uuid "ab94960d-aef7-4d74-b07f-f71b91b3b179")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR012")
 					(unit 1)
@@ -13251,7 +13977,7 @@
 			(uuid "aae01bcd-eea2-41f7-83bd-8379d7a139d5")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "J4")
 					(unit 1)
@@ -13355,7 +14081,7 @@
 			(uuid "c694a853-18ee-4238-8037-450ada65c7e7")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "D7")
 					(unit 1)
@@ -13433,7 +14159,7 @@
 			(uuid "0fe0336c-37cd-4b3e-9ae8-8e9b801e4b8d")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR01")
 					(unit 1)
@@ -13511,7 +14237,7 @@
 			(uuid "c087ba91-1fea-4150-8c85-fb1b3811dfa6")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR010")
 					(unit 1)
@@ -13589,7 +14315,7 @@
 			(uuid "206de9da-df0b-4f7d-8e9b-160a6a1cbf2a")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "#PWR04")
 					(unit 1)
@@ -13671,7 +14397,7 @@
 			(uuid "0898c698-5f23-4cd2-976c-0ff11414c144")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
 					(reference "R15")
 					(unit 1)
@@ -13691,7 +14417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc33884c-3c0c-4b29-8742-80a9665d4321")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 107.95 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13749,9 +14475,87 @@
 			(uuid "e14e029b-7b3a-4f68-9391-d0b80d1f0e43")
 		)
 		(instances
-			(project "power_board_24V"
+			(project "24v_power_board"
 				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
-					(reference "#PWR024")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 111.76 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffa0cd63-418a-4f88-bc61-8072cce6546a")
+		(property "Reference" "TP4"
+			(at 115.824 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 115.824 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 116.84 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 111.76 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d2b25fd-d66e-4af8-8ec4-ef0386bd49b9")
+		)
+		(instances
+			(project "24v_power_board"
+				(path "/7e933acb-f512-46a3-a247-cbd9deaf4ead"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
