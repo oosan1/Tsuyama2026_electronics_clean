@@ -13569,7 +13569,7 @@
 		(layer "Edge.Cuts")
 		(uuid "a98eb082-db09-46ea-8432-fd6c9dcebca5")
 	)
-	(gr_text "BoardID:\n TS26-PWR\n -SRV\n\nver 0.2"
+	(gr_text "BoardID:\n TS26-PWR\n -SRV\n\nver 0.3"
 		(at 34.5 60.5 0)
 		(layer "F.SilkS")
 		(uuid "e2966c9e-8566-4b89-9792-6e6b033ad4d9")
@@ -13712,7 +13712,7 @@
 		)
 	)
 	(gr_text "2026/09/20\nDesigned by E.Yoshioka"
-		(at 83 45.9 270)
+		(at 83 45.9 0)
 		(layer "B.SilkS")
 		(uuid "4565b1e5-25db-4644-80b1-3c35d30dbdc2")
 		(effects
