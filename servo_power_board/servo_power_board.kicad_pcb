@@ -562,7 +562,7 @@
 			(uuid "938c7c2c-52e4-44d7-adcc-23bc937f2a0b")
 		)
 		(embedded_fonts no)
-		(model "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/3dmodels/XT30PW-M.STEP"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/XT30PW-M.STEP"
 			(offset
 				(xyz -2.5 10 0)
 			)
@@ -2143,7 +2143,7 @@
 			(uuid "2dfe100b-12c8-4c6b-ae5a-7968ad8c2471")
 		)
 		(embedded_fonts no)
-		(model "/home/oosan1/Documents/git_repos/OU_PowerUnit_Crobo/Circuit/Libraries/3Dmodels/3006p.stp"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/3006p.stp"
 			(offset
 				(xyz -1.1 -0.25 0)
 			)
@@ -2649,7 +2649,7 @@
 			(uuid "cfe2560c-12bd-4c92-9f53-1f2b0c5f3e10")
 		)
 		(embedded_fonts no)
-		(model "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/3dmodels/XT30PW-F.STEP"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/XT30PW-F.STEP"
 			(offset
 				(xyz 2.5 5 0)
 			)
@@ -5471,7 +5471,7 @@
 			(uuid "27d3cb64-e46d-4d2e-840c-504ef71d04cd")
 		)
 		(embedded_fonts no)
-		(model "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/3dmodels/DF1EC-2P-2.5DSA.stp"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/DF1EC-2P-2.5DSA.stp"
 			(offset
 				(xyz -10.25 4.2 0)
 			)
@@ -8385,7 +8385,7 @@
 			(uuid "897513ae-346a-41a1-9193-b1fc525eaa21")
 		)
 		(embedded_fonts no)
-		(model "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/3dmodels/XT30PW-F.STEP"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/XT30PW-F.STEP"
 			(offset
 				(xyz 2.5 5 0)
 			)
@@ -9227,7 +9227,7 @@
 			(uuid "3a5f5992-cd42-49ce-bf19-4bcd04dbec4b")
 		)
 		(embedded_fonts no)
-		(model "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/3dmodels/XT30PW-F.STEP"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/XT30PW-F.STEP"
 			(offset
 				(xyz 2.5 5 0)
 			)
@@ -11977,7 +11977,7 @@
 			(uuid "fa0110c6-0181-440e-9735-77c76092bbaa")
 		)
 		(embedded_fonts no)
-		(model "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/3dmodels/XT30PW-F.STEP"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/XT30PW-F.STEP"
 			(offset
 				(xyz 2.5 5 0)
 			)
@@ -12468,7 +12468,7 @@
 			(uuid "b0fd726f-a0c7-43aa-9fea-36d5998fbb6e")
 		)
 		(embedded_fonts no)
-		(model "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/3dmodels/YDS512F.step"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/YDS512F.step"
 			(offset
 				(xyz 0 30 0)
 			)

@@ -3747,7 +3747,7 @@
 			(uuid "074082eb-374c-4218-bedc-1b962876d884")
 		)
 		(embedded_fonts no)
-		(model "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/3dmodels/XT30PW-M.STEP"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/XT30PW-M.STEP"
 			(offset
 				(xyz -2.5 10 0)
 			)
@@ -11498,7 +11498,7 @@
 			(uuid "360af5ca-feb6-4a90-8c47-88b999e5859a")
 		)
 		(embedded_fonts no)
-		(model "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/3dmodels/DF1E-3P-2.5DS.stp"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/DF1E-3P-2.5DS.stp"
 			(offset
 				(xyz 32.7 0 8)
 			)
@@ -12102,7 +12102,7 @@
 			(uuid "1d02b335-5ec2-4cc5-a1fb-3fd9b156ceb0")
 		)
 		(embedded_fonts no)
-		(model "/home/oosan1/Documents/git_repos/Tsuyama2026_electronics/common_lib/3dmodels/DF1E-3P-2.5DS.stp"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/DF1E-3P-2.5DS.stp"
 			(offset
 				(xyz 32.7 0 8)
 			)
