@@ -629,7 +629,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -754,7 +754,7 @@
         "uuid": "7e933acb-f512-46a3-a247-cbd9deaf4ead"
       }
     ],
-    "used_designators": "J1-25,F1-2,U1-2,Q1-3,#PWR1-29,D1-7,C1-5,C12,TP1-5,R1-15,K1-2,DZ1,NT1,RV1",
+    "used_designators": "RV1,NT1,DZ1,K1-2,R1-15,TP1-5,C1-5,C12,D1-7,#PWR1-29,Q1-3,U1-2,F1-2,J1-25",
     "variants": []
   },
   "sheets": [
