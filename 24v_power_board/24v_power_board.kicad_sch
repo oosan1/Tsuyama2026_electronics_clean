@@ -8179,7 +8179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OU_connector:B02B-PASK-1"
+		(property "Footprint" "OU_connector:DF1EC-2P-2.5DSA"
 			(at 148.59 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11755,7 +11755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OU_connector:B04B-PASK-1"
+		(property "Footprint" "OU_connector:DF1EC-4P-2.5DSA"
 			(at 189.23 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -13390,7 +13390,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "OU_connector:S02B-PASK-2"
+		(property "Footprint" "OU_connector:DF1E-2P-2.5DS"
 			(at 161.29 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13937,7 +13937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "OU_connector:S02B-PASK-2"
+		(property "Footprint" "OU_connector:DF1E-2P-2.5DS"
 			(at 157.48 96.52 0)
 			(hide yes)
 			(show_name no)
