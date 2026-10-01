@@ -6737,6 +6737,7 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 21.59 119.38 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6746,7 +6747,7 @@
 		(dnp no)
 		(uuid "b540b74e-7a25-472d-b571-0d0a82105191")
 		(property "Reference" "J2"
-			(at 21.59 110.49 0)
+			(at 21.59 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6756,7 +6757,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 21.59 113.284 0)
+			(at 21.59 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6765,7 +6766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OU_connector:DF1E-3P-2.5DS"
+		(property "Footprint" "OU_connector:S03B-PASK-2"
 			(at 21.59 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6787,7 +6788,7 @@
 				)
 			)
 		)
-		(property "Description" "DF1E-3P-2.5DS"
+		(property "Description" "S03B-PASK-2"
 			(at 21.59 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7528,6 +7529,7 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 21.59 45.72 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7537,7 +7539,7 @@
 		(dnp no)
 		(uuid "d5dfdb90-2139-404a-aef2-29807b0a8f7b")
 		(property "Reference" "J1"
-			(at 21.59 36.83 0)
+			(at 21.59 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7547,7 +7549,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 21.59 39.624 0)
+			(at 21.59 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7556,7 +7558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OU_connector:DF1E-3P-2.5DS"
+		(property "Footprint" "OU_connector:S03B-PASK-2"
 			(at 21.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7578,7 +7580,7 @@
 				)
 			)
 		)
-		(property "Description" "DF1E-3P-2.5DS"
+		(property "Description" "S03B-PASK-2"
 			(at 21.59 45.72 0)
 			(hide yes)
 			(show_name no)
