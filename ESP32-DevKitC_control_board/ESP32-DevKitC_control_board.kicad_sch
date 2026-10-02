@@ -3105,16 +3105,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 44.45) (xy 154.94 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f9268da-ba40-43aa-85b1-c1eff3ac954d")
-	)
-	(wire
-		(pts
 			(xy 226.06 40.64) (xy 224.79 40.64)
 		)
 		(stroke
@@ -3575,6 +3565,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 38.1) (xy 154.94 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c58163b-f306-404c-9ce1-5b526e437e88")
+	)
+	(wire
+		(pts
 			(xy 148.59 114.3) (xy 148.59 116.84)
 		)
 		(stroke
@@ -3865,6 +3865,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 44.45) (xy 160.02 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f76d1c-a3b6-4553-93ec-ed206cac4506")
+	)
+	(wire
+		(pts
 			(xy 236.22 115.57) (xy 236.22 116.84)
 		)
 		(stroke
@@ -4035,16 +4045,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 44.45) (xy 160.02 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e164b56e-57a3-46d7-9de0-511ae176e0da")
-	)
-	(wire
-		(pts
 			(xy 259.08 116.84) (xy 259.08 119.38)
 		)
 		(stroke
@@ -4184,7 +4184,7 @@
 		(uuid "05a57413-7504-4ecb-aca9-675524959f2e")
 	)
 	(label "PWM3"
-		(at 160.02 44.45 90)
+		(at 154.94 44.45 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4254,7 +4254,7 @@
 		(uuid "30904c85-2231-4814-804f-d71deb58f657")
 	)
 	(label "PWM2"
-		(at 154.94 44.45 90)
+		(at 160.02 44.45 90)
 		(effects
 			(font
 				(size 1.27 1.27)
