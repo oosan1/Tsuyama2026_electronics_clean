@@ -12070,7 +12070,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "BoardID:\n TS26-CTRL-ESP32\n\nver 0.2"
+	(gr_text "BoardID:\n TS26-CTRL-ESP32\n\nver 0.3"
 		(at 39 24.5 0)
 		(layer "F.SilkS")
 		(uuid "2495f417-31f8-448c-b5cc-11c4f4697f45")
@@ -12109,7 +12109,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "CAN0"
+	(gr_text "CAN1"
 		(at 30.4 49.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "f2fccb7e-2416-43f6-91bc-012837d4e541")
