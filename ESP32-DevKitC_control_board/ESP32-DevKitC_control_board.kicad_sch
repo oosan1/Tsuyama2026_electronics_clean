@@ -4307,16 +4307,6 @@
 		)
 		(uuid "0116b6b2-a437-46b8-bca6-ec9d74db32d4")
 	)
-	(label "GPIO22"
-		(at 111.76 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "056a882f-701a-4937-a6fa-27d68a5f1271")
-	)
 	(label "GPIO32"
 		(at 242.57 115.57 0)
 		(effects
@@ -4326,6 +4316,16 @@
 			(justify left bottom)
 		)
 		(uuid "05a57413-7504-4ecb-aca9-675524959f2e")
+	)
+	(label "I2C_SDA"
+		(at 152.4 85.09 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cd3d26c-8f63-46fb-b22e-0ca6172f571a")
 	)
 	(label "PWM3"
 		(at 154.94 40.64 90)
@@ -4347,6 +4347,16 @@
 		)
 		(uuid "0e644586-be38-4af2-b0fc-28abbb08c4f1")
 	)
+	(label "I2C_SCL"
+		(at 111.76 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18c16db5-7526-4b85-9654-d22b6ae6f3e4")
+	)
 	(label "PWM0"
 		(at 30.48 96.52 0)
 		(effects
@@ -4366,16 +4376,6 @@
 			(justify right bottom)
 		)
 		(uuid "1f8b8f07-53aa-4a7e-840d-437eaf66b308")
-	)
-	(label "GPIO21"
-		(at 111.76 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "25b6d3d3-5713-4234-9214-2bc6eda651df")
 	)
 	(label "PWM0"
 		(at 142.24 40.64 90)
@@ -4427,6 +4427,16 @@
 		)
 		(uuid "4ef2c6c6-c924-42b7-9cb6-c332349bb719")
 	)
+	(label "I2C_SDA"
+		(at 111.76 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58fb0936-f29b-4b34-a035-f3c8fbe7bca1")
+	)
 	(label "GPIO33"
 		(at 205.74 115.57 0)
 		(effects
@@ -4437,7 +4447,7 @@
 		)
 		(uuid "5ae1db7b-3e26-462b-bb33-615ddbcf3b62")
 	)
-	(label "GPIO21"
+	(label "I2C_SDA"
 		(at 135.89 80.01 90)
 		(effects
 			(font
@@ -4466,16 +4476,6 @@
 			(justify left bottom)
 		)
 		(uuid "6e977455-e3ac-40ac-8fed-1ef49fe870d1")
-	)
-	(label "GPIO22"
-		(at 161.29 85.09 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7443e5d4-48ca-4f0e-a879-d9c96845af2c")
 	)
 	(label "GPIO13"
 		(at 30.48 93.98 0)
@@ -4517,7 +4517,7 @@
 		)
 		(uuid "a1de3607-0123-4da2-944b-1c75e8393592")
 	)
-	(label "GPIO22"
+	(label "I2C_SCL"
 		(at 140.97 80.01 90)
 		(effects
 			(font
@@ -4567,15 +4567,15 @@
 		)
 		(uuid "c0cbbbfa-4087-49de-a5e6-2c7d11d9a665")
 	)
-	(label "GPIO21"
-		(at 152.4 85.09 90)
+	(label "I2C_SCL"
+		(at 161.29 85.09 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e075c24e-5e9e-4bbe-b016-783a9d6cd91a")
+		(uuid "dc330f1c-e8c8-4b21-951d-b593ac423bd3")
 	)
 	(label "GPIO4"
 		(at 185.42 88.9 90)
