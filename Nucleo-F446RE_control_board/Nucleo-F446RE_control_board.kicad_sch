@@ -3369,8 +3369,8 @@
 		(uuid "452e37c1-fad4-4949-b49f-547c10a4023b")
 	)
 	(rectangle
-		(start 149.86 180.34)
-		(end 170.18 203.2)
+		(start 149.86 176.53)
+		(end 186.69 203.2)
 		(stroke
 			(width 0)
 			(type default)
@@ -3484,7 +3484,7 @@
 	)
 	(text "シリアルサーボ"
 		(exclude_from_sim no)
-		(at 169.418 182.88 0)
+		(at 185.42 179.07 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3768,10 +3768,6 @@
 	(no_connect
 		(at 74.93 85.09)
 		(uuid "d86af0c2-f1df-49c1-af06-d834979dc446")
-	)
-	(no_connect
-		(at 154.94 49.53)
-		(uuid "dacd9aa1-7324-4db4-9e77-a0434e2a5461")
 	)
 	(no_connect
 		(at 74.93 95.25)
@@ -4291,6 +4287,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 194.31) (xy 154.94 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef3835c-759d-4729-b11f-8c4e6829767b")
+	)
+	(wire
+		(pts
 			(xy 119.38 146.05) (xy 119.38 152.4)
 		)
 		(stroke
@@ -4311,16 +4317,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 195.58) (xy 158.75 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41c26f74-5ee1-498c-918b-46e1dea1cf37")
-	)
-	(wire
-		(pts
 			(xy 234.95 133.35) (xy 234.95 134.62)
 		)
 		(stroke
@@ -4338,6 +4334,16 @@
 			(type default)
 		)
 		(uuid "4325947f-cdc7-49f8-be80-543f98abcd92")
+	)
+	(wire
+		(pts
+			(xy 144.78 49.53) (xy 154.94 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b13350-3e23-4778-aa2a-2a1d9560e46c")
 	)
 	(wire
 		(pts
@@ -4368,6 +4374,16 @@
 			(type default)
 		)
 		(uuid "4753f28d-77a0-4ce5-b919-480fbbf81d21")
+	)
+	(wire
+		(pts
+			(xy 162.56 189.23) (xy 162.56 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3397da-891d-4c01-952f-3bc72fa104ea")
 	)
 	(wire
 		(pts
@@ -4518,6 +4534,16 @@
 			(type default)
 		)
 		(uuid "5e9e2849-e8cd-443f-b15b-d3affea256fd")
+	)
+	(wire
+		(pts
+			(xy 157.48 189.23) (xy 157.48 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60962e85-ae8b-4635-84f4-bf9e4c2e1b9f")
 	)
 	(wire
 		(pts
@@ -4991,16 +5017,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 198.12) (xy 153.67 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7565170-6160-4e56-bbd8-c2fb6a948334")
-	)
-	(wire
-		(pts
 			(xy 87.63 189.23) (xy 87.63 195.58)
 		)
 		(stroke
@@ -5241,16 +5257,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 200.66) (xy 161.29 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d747c38e-e407-4aa0-80ab-da61adc6a0a7")
-	)
-	(wire
-		(pts
 			(xy 144.78 77.47) (xy 154.94 77.47)
 		)
 		(stroke
@@ -5461,16 +5467,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 196.85) (xy 153.67 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2595594-aeab-4531-955f-f874710e2959")
-	)
-	(wire
-		(pts
 			(xy 73.66 144.78) (xy 73.66 147.32)
 		)
 		(stroke
@@ -5518,6 +5514,16 @@
 			(type default)
 		)
 		(uuid "f74d6f42-e97a-48e0-b8d6-fe4a810dc102")
+	)
+	(wire
+		(pts
+			(xy 160.02 194.31) (xy 160.02 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f9e249-80b6-47ba-945d-4f51d078c5ac")
 	)
 	(wire
 		(pts
@@ -5659,6 +5665,16 @@
 		)
 		(uuid "16a218c3-96ed-4f5b-bc47-fd5c053bdbd8")
 	)
+	(label "PA9"
+		(at 160.02 194.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "193e14c7-2548-4fd0-b8dc-efddf610bbed")
+	)
 	(label "PC10"
 		(at 68.58 87.63 0)
 		(effects
@@ -5779,16 +5795,6 @@
 		)
 		(uuid "63a9146e-059f-4954-b765-e6793cf490a3")
 	)
-	(label "PA9"
-		(at 161.29 200.66 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ffb42de-eff3-4d0a-9bf6-871cfedad813")
-	)
 	(label "PWM2"
 		(at 196.85 39.37 180)
 		(effects
@@ -5889,6 +5895,16 @@
 		)
 		(uuid "9d057753-d284-448d-91f7-fa31caeba49d")
 	)
+	(label "PA10"
+		(at 144.78 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1c674cc-ab82-4dc4-913b-78690c41b4a7")
+	)
 	(label "PB0"
 		(at 68.58 67.31 0)
 		(effects
@@ -5948,6 +5964,16 @@
 			(justify left bottom)
 		)
 		(uuid "b1fabd9e-84d2-43dd-b93b-3abc476bf26d")
+	)
+	(label "PA10"
+		(at 154.94 194.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c561bc85-ba8d-4dce-bfd2-bf6b88c32da0")
 	)
 	(label "PB15"
 		(at 125.73 196.85 90)
@@ -6431,84 +6457,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 153.67 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c3dd9c2-3f8a-4640-b9c7-44fa2174f1b2")
-		(property "Reference" "#PWR047"
-			(at 153.67 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 153.67 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 153.67 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fa5f141-d4d6-4fc3-8846-5558d90f97cb")
-		)
-		(instances
-			(project "Nucleo-F446RE_control_board"
-				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 187.96 152.4 180)
 		(unit 1)
 		(body_style 1)
@@ -6977,6 +6925,84 @@
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 157.48 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "177a63a3-9954-4192-8d09-66b91858ac40")
+		(property "Reference" "#PWR052"
+			(at 157.48 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 157.48 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 157.48 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcd7195a-9886-470a-953b-64f4eb87fa5e")
+		)
+		(instances
+			(project "Nucleo-F446RE_control_board"
+				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7496,6 +7522,84 @@
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33886569-d34f-47ba-9476-1e6beaed6380")
+		(property "Reference" "#PWR053"
+			(at 162.56 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b35465c-dab5-4e71-a300-755316095fa6")
+		)
+		(instances
+			(project "Nucleo-F446RE_control_board"
+				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8106,86 +8210,6 @@
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 158.75 190.5 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4cf6e184-7346-41ba-8670-c87813565cbd")
-		(property "Reference" "J14"
-			(at 159.766 186.182 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 159.766 188.722 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OU_connector:DF1E-2P-2.5DS"
-			(at 158.75 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DF1E-2P-2.5DS"
-			(at 158.75 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "065808cd-09c1-4d1a-9d8d-394264614ad9")
-		)
-		(pin "2"
-			(uuid "21947625-da59-4cde-9263-2bfb610f0b33")
-		)
-		(instances
-			(project "Nucleo-F446RE_control_board"
-				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -13621,6 +13645,92 @@
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 160.02 184.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1ce3633-33b6-4d5f-9e1f-418ac4eb911b")
+		(property "Reference" "J14"
+			(at 158.75 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 158.75 181.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OU_connector:DF1E-4P-2.5DS"
+			(at 160.02 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DF1E-4P-2.5DS"
+			(at 160.02 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a3bcff9-7063-4f3d-9ce3-ce2093ff87d7")
+		)
+		(pin "3"
+			(uuid "0ec18676-f696-47e8-9a80-69e04adc887f")
+		)
+		(pin "2"
+			(uuid "e9b711db-7d3a-4e97-a127-aece0de9b5e3")
+		)
+		(pin "4"
+			(uuid "74f3af9e-ae79-48fc-ab06-98e3de409f5d")
+		)
+		(instances
+			(project "Nucleo-F446RE_control_board"
+				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
+					(reference "J14")
 					(unit 1)
 				)
 			)
