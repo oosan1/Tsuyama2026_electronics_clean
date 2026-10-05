@@ -3019,6 +3019,10 @@
 		(uuid "d1302e60-d1ba-43c2-a93e-890fa68f4e22")
 	)
 	(no_connect
+		(at 92.71 34.29)
+		(uuid "2f064ccb-400c-4002-ae4b-ad050cfdca6a")
+	)
+	(no_connect
 		(at 92.71 67.31)
 		(uuid "311dfc0c-cbcb-42e0-9731-d28cfa0e1b7d")
 	)
