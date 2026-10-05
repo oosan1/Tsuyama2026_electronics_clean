@@ -15344,6 +15344,37 @@
 		(layer "F.SilkS")
 		(uuid "52359198-55cb-4de1-88c7-cb12bc870d56")
 	)
+	(gr_rect
+		(start 42.2 97.5)
+		(end 46.2 103.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "851f40ba-f95c-4a63-b099-d11c3298e5ff")
+	)
+	(gr_line
+		(start 46.2 99.5)
+		(end 42.2 99.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a2f7ae0d-d037-4558-8cf2-38b3ea5b9c76")
+	)
+	(gr_line
+		(start 46.2 101.5)
+		(end 42.2 101.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7c05a632-8830-4461-ba12-2f280c4ca225")
+	)
 	(gr_line
 		(start 76.31 87.878)
 		(end 75.5 85.5)
@@ -15459,7 +15490,7 @@
 		(uuid "b7d80a76-70b0-4884-9e8e-c682f98684e8")
 	)
 	(gr_text "5V電源入力を使用する場合，\nNucleoボード上のJP5を\n要確認"
-		(at 41.656 98.044 0)
+		(at 57.2 100.6 0)
 		(layer "F.SilkS")
 		(uuid "bcc722b6-4856-42fe-b509-f482d0328674")
 		(effects
@@ -15727,6 +15758,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "PA4,PB0,PC2,PC10"
+		(at 42 97.2 0)
+		(layer "F.SilkS" knockout)
+		(uuid "2dff63b9-55cd-465d-b775-44d6eb9da187")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Pull-up\nResistor"
 		(at 117.856 53.086 0)
 		(layer "F.SilkS" knockout)
@@ -15768,6 +15812,18 @@
 		(at 37.338 84.328 0)
 		(layer "F.SilkS")
 		(uuid "171d4fd6-5816-4702-b80f-7dc41e600b0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "IO"
+		(at 44.2 98.5 0)
+		(layer "F.SilkS")
+		(uuid "7dc330e6-67bc-4edd-b665-1fda16157f3b")
 		(effects
 			(font
 				(size 1 1)
@@ -15846,6 +15902,32 @@
 				(thickness 0.2)
 				(bold yes)
 			)
+		)
+	)
+	(gr_text "GND"
+		(at 45.7 102.5 0)
+		(layer "F.SilkS")
+		(uuid "d2f3d13c-1f38-4262-9ca3-990299a074d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "3.3V"
+		(at 45.9 100.5 0)
+		(layer "F.SilkS")
+		(uuid "c9218141-ed49-4cb8-8099-55dca274ad99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
 		)
 	)
 	(gr_text "PB8"
@@ -16208,7 +16290,7 @@
 		)
 	)
 	(gr_text "岡山大学\nロボット研究会"
-		(at 62 103 0)
+		(at 57 98.2 0)
 		(layer "F.SilkS")
 		(uuid "1ed376c5-a148-40b8-aa63-b8fec45215e3")
 		(effects
