@@ -15365,17 +15365,6 @@
 		(uuid "d10c9e6c-d927-4263-ba61-c975833dca7e")
 	)
 	(gr_rect
-		(start 110.75 83.75)
-		(end 114.75 87.75)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "15a7503c-0a3c-4c57-b040-cae220425148")
-	)
-	(gr_rect
 		(start 111 25.5)
 		(end 115 33.5)
 		(stroke
@@ -15395,16 +15384,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "8c2f0d87-9a65-40a6-82c5-1c6b305273f8")
-	)
-	(gr_line
-		(start 114.75 85.75)
-		(end 110.75 85.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "528b234e-1488-4227-9803-ff951770f0c7")
 	)
 	(gr_line
 		(start 115 27.5)
@@ -15605,7 +15584,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "BoardID:\n TS26-CTRL-F446RE\n\nver 0.3"
+	(gr_text "BoardID:\n TS26-CTRL-F446RE\n\nver 0.4"
 		(at 45.974 107.696 0)
 		(layer "F.SilkS")
 		(uuid "ad25ed61-606b-42b8-8b78-9d9b31eddfb1")
@@ -15821,30 +15800,6 @@
 			)
 		)
 	)
-	(gr_text "3.3V"
-		(at 112.75 84.75 0)
-		(layer "F.SilkS")
-		(uuid "a38799bf-43d0-4661-9605-c57a91d85808")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-		)
-	)
-	(gr_text "PA9"
-		(at 112.75 86.75 0)
-		(layer "F.SilkS")
-		(uuid "3a352413-5f41-4b74-a87b-233eab32939e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-		)
-	)
 	(gr_text "GND"
 		(at 113 26.5 0)
 		(layer "F.SilkS")
@@ -15910,6 +15865,58 @@
 		(at 112.75 44 0)
 		(layer "F.SilkS" knockout)
 		(uuid "37b43806-21cd-447b-a6fe-f4501a698c5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "G"
+		(at 112.776 79.502 0)
+		(layer "F.SilkS" knockout)
+		(uuid "4d6758e1-56cc-4d8f-99ed-9f9507230aff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "PA9"
+		(at 112.776 82.042 0)
+		(layer "F.SilkS" knockout)
+		(uuid "277239f5-e05a-4d2e-ac8c-b5767d314a52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "3.3V"
+		(at 112.776 84.582 0)
+		(layer "F.SilkS" knockout)
+		(uuid "744f24a7-7b73-4f9a-bf62-71b00fc8fe8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "PA10"
+		(at 112.776 87.122 0)
+		(layer "F.SilkS" knockout)
+		(uuid "47641628-1613-40a3-b734-77805ec03639")
 		(effects
 			(font
 				(size 1 1)
@@ -16023,6 +16030,19 @@
 			(justify right bottom)
 		)
 	)
+	(gr_text "Serial Servo"
+		(at 124.46 90.932 0)
+		(layer "F.SilkS" knockout)
+		(uuid "0bcc8d60-b513-44aa-ae17-d3a6d49b283d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
 	(gr_text "PWM3,4"
 		(at 124.5 63.75 0)
 		(layer "F.SilkS" knockout)
@@ -16040,19 +16060,6 @@
 		(at 124.5 74.75 0)
 		(layer "F.SilkS" knockout)
 		(uuid "a277072f-5b60-4a41-aa42-0c502733941a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-	)
-	(gr_text "Serial Servo"
-		(at 124.5 85 0)
-		(layer "F.SilkS" knockout)
-		(uuid "0bcc8d60-b513-44aa-ae17-d3a6d49b283d")
 		(effects
 			(font
 				(size 1 1)
