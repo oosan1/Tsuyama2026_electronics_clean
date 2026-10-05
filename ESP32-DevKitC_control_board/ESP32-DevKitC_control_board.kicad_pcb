@@ -11768,8 +11768,19 @@
 		(uuid "a56f7053-b815-4d24-a9c5-eb25dbadbe82")
 	)
 	(gr_rect
-		(start 76.962 21.352)
-		(end 82.962 25.352)
+		(start 75.3 27.7)
+		(end 81.3 31.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "370d9fd9-2e4f-4047-a46b-d32620996116")
+	)
+	(gr_rect
+		(start 76.5 22)
+		(end 82.5 26)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -11779,8 +11790,18 @@
 		(uuid "2605ec59-7eb8-4708-b13d-e7b87b7828de")
 	)
 	(gr_line
-		(start 78.962 21.352)
-		(end 78.962 25.352)
+		(start 77.3 27.7)
+		(end 77.3 31.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ebca9131-e033-49cc-a2d4-837f8b59e422")
+	)
+	(gr_line
+		(start 78.5 22)
+		(end 78.5 26)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -11789,18 +11810,18 @@
 		(uuid "51b6472b-f6e7-4efe-a400-0ee40b15b11a")
 	)
 	(gr_line
-		(start 79.635 26.924)
-		(end 79.962 25.352)
+		(start 79.3 27.7)
+		(end 79.3 31.7)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "fe9e99c9-a2c5-4388-8f6c-d6180a225143")
+		(uuid "1e48f1d8-d2b6-4484-8d1b-1a0e43497310")
 	)
 	(gr_line
-		(start 80.962 21.352)
-		(end 80.962 25.352)
+		(start 80.5 22)
+		(end 80.5 26)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -11809,7 +11830,7 @@
 		(uuid "ba2a248e-58dd-4f24-8a04-ce17f723409b")
 	)
 	(gr_line
-		(start 85.852 29.972)
+		(start 85.9 30.4)
 		(end 87.63 31.242)
 		(stroke
 			(width 0.15)
@@ -12018,19 +12039,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GPIO13,23,\n	32,33"
-		(at 75.184 26.924 0)
-		(layer "F.SilkS" knockout)
-		(uuid "77b7ecfd-fd2a-4043-a296-b06a5775a667")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left top)
-		)
-	)
 	(gr_text "Lp-C  ローパスフィルタ用C,\nP-dn  もしくはプルダウン"
 		(at 87.5 72 0)
 		(layer "F.SilkS")
@@ -12070,7 +12078,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "BoardID:\n TS26-CTRL-ESP32\n\nver 0.4"
+	(gr_text "BoardID:\n TS26-CTRL-ESP32\n\nver 0.5"
 		(at 39 24.5 0)
 		(layer "F.SilkS")
 		(uuid "2495f417-31f8-448c-b5cc-11c4f4697f45")
@@ -12139,6 +12147,32 @@
 		(at 30.4 72 0)
 		(layer "F.SilkS" knockout)
 		(uuid "3200da2e-5aeb-4c64-be48-965d4efe6761")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GPIO13,32,33"
+		(at 75.1 27.5 0)
+		(layer "F.SilkS" knockout)
+		(uuid "559e6130-6979-455d-bd22-770c33eb82c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GPIO23"
+		(at 76.3 21.9 0)
+		(layer "F.SilkS" knockout)
+		(uuid "77b7ecfd-fd2a-4043-a296-b06a5775a667")
 		(effects
 			(font
 				(size 1 1)
@@ -12481,8 +12515,21 @@
 			)
 		)
 	)
+	(gr_text "IO"
+		(at 76.3 28 90)
+		(layer "F.SilkS")
+		(uuid "8391bfb1-98eb-49c8-9d83-3588da1a7465")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "GND"
-		(at 77.962 21.652 90)
+		(at 77.5 22.3 90)
 		(layer "F.SilkS")
 		(uuid "653830d1-7387-4227-85bc-0a4874340e89")
 		(effects
@@ -12495,7 +12542,20 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 79.962 21.652 90)
+		(at 78.3 28 90)
+		(layer "F.SilkS")
+		(uuid "3e4849bd-3402-43f4-9d60-d2b37b771947")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "3.3V"
+		(at 79.5 22.3 90)
 		(layer "F.SilkS")
 		(uuid "34dd250f-7ae3-4052-8014-3533068888f5")
 		(effects
@@ -12507,8 +12567,21 @@
 			(justify right)
 		)
 	)
+	(gr_text "GND"
+		(at 80.3 28.2 90)
+		(layer "F.SilkS")
+		(uuid "7800da1e-6fcc-49a8-b65f-95457698d518")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "IO"
-		(at 81.962 21.652 90)
+		(at 81.5 22.3 90)
 		(layer "F.SilkS")
 		(uuid "b75e73d5-1cee-4164-8be6-7ba560b6f3fe")
 		(effects
@@ -12572,7 +12645,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 85.852 27.94 180)
+		(at 85.852 28.5 180)
 		(layer "F.SilkS" knockout)
 		(uuid "2624107e-9d5f-4734-af61-199884968f3a")
 		(effects
@@ -13805,6 +13878,38 @@
 		(uuid "ff9f7105-b664-4355-9d29-d055b56890f7")
 	)
 	(segment
+		(start 106.362 41.656)
+		(end 101.092 41.656)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/PWM2")
+		(uuid "5a5cfb6d-8b5b-4f8c-810a-9d09b8195f55")
+	)
+	(segment
+		(start 89.41072 53.33728)
+		(end 84.83232 53.33728)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/PWM2")
+		(uuid "5f6116d3-8c1a-42bf-b60d-209193e9686e")
+	)
+	(segment
+		(start 101.092 41.656)
+		(end 89.41072 53.33728)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/PWM2")
+		(uuid "e192b746-c950-4c42-9cf9-b0d73cb3243e")
+	)
+	(segment
+		(start 106.426 41.592)
+		(end 106.362 41.656)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/PWM2")
+		(uuid "f5c95542-b9c5-4092-95bc-691ebd69ffcf")
+	)
+	(segment
 		(start 106.426 37.592)
 		(end 103.952991 37.592)
 		(width 0.25)
@@ -14325,38 +14430,6 @@
 		(uuid "d8466e89-9e4b-4f49-9119-b4bd3fd3622f")
 	)
 	(segment
-		(start 106.362 41.656)
-		(end 101.092 41.656)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/PWM2")
-		(uuid "5a5cfb6d-8b5b-4f8c-810a-9d09b8195f55")
-	)
-	(segment
-		(start 89.41072 53.33728)
-		(end 84.83232 53.33728)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/PWM2")
-		(uuid "5f6116d3-8c1a-42bf-b60d-209193e9686e")
-	)
-	(segment
-		(start 101.092 41.656)
-		(end 89.41072 53.33728)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/PWM2")
-		(uuid "e192b746-c950-4c42-9cf9-b0d73cb3243e")
-	)
-	(segment
-		(start 106.426 41.592)
-		(end 106.362 41.656)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/PWM2")
-		(uuid "f5c95542-b9c5-4092-95bc-691ebd69ffcf")
-	)
-	(segment
 		(start 96.688 48.092)
 		(end 86.36272 58.41728)
 		(width 0.25)
@@ -14379,6 +14452,62 @@
 		(layer "B.Cu")
 		(net "/PWM3")
 		(uuid "cf184857-01e9-4dcc-8633-7242e5f23483")
+	)
+	(segment
+		(start 108.059 50.709)
+		(end 108.059 47.686485)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/PWM4")
+		(uuid "087b7410-6a2e-41cb-891e-a227d67dcb20")
+	)
+	(segment
+		(start 96.651 47.113)
+		(end 87.88672 55.87728)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/PWM4")
+		(uuid "0d5d2ab9-e3c2-4daf-9ecc-92abc5188cd8")
+	)
+	(segment
+		(start 108.059 47.686485)
+		(end 107.485515 47.113)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/PWM4")
+		(uuid "4250af1c-abee-4b51-b3f0-45f6b0a4e028")
+	)
+	(segment
+		(start 87.88672 55.87728)
+		(end 84.83232 55.87728)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/PWM4")
+		(uuid "5b3e92c9-0212-4ee9-b7e8-d79322f9c97a")
+	)
+	(segment
+		(start 106.676 52.092)
+		(end 108.059 50.709)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/PWM4")
+		(uuid "6ce57a0e-2822-43e0-b5e0-fed28c210ee7")
+	)
+	(segment
+		(start 106.426 52.092)
+		(end 106.676 52.092)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/PWM4")
+		(uuid "ef0fa6b9-ff6d-44dd-b6b2-3d6e6df78e95")
+	)
+	(segment
+		(start 107.485515 47.113)
+		(end 96.651 47.113)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/PWM4")
+		(uuid "f1aa4fb4-b10b-4037-896e-5cdf1ef3d7da")
 	)
 	(segment
 		(start 89.7606 38.249)
@@ -14691,62 +14820,6 @@
 		(layer "B.Cu")
 		(net "Net-(J5-Pin_1)")
 		(uuid "21a88eb7-5e66-46dd-b61b-07cc4a079e45")
-	)
-	(segment
-		(start 108.059 50.709)
-		(end 108.059 47.686485)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/PWM4")
-		(uuid "087b7410-6a2e-41cb-891e-a227d67dcb20")
-	)
-	(segment
-		(start 96.651 47.113)
-		(end 87.88672 55.87728)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/PWM4")
-		(uuid "0d5d2ab9-e3c2-4daf-9ecc-92abc5188cd8")
-	)
-	(segment
-		(start 108.059 47.686485)
-		(end 107.485515 47.113)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/PWM4")
-		(uuid "4250af1c-abee-4b51-b3f0-45f6b0a4e028")
-	)
-	(segment
-		(start 87.88672 55.87728)
-		(end 84.83232 55.87728)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/PWM4")
-		(uuid "5b3e92c9-0212-4ee9-b7e8-d79322f9c97a")
-	)
-	(segment
-		(start 106.676 52.092)
-		(end 108.059 50.709)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/PWM4")
-		(uuid "6ce57a0e-2822-43e0-b5e0-fed28c210ee7")
-	)
-	(segment
-		(start 106.426 52.092)
-		(end 106.676 52.092)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/PWM4")
-		(uuid "ef0fa6b9-ff6d-44dd-b6b2-3d6e6df78e95")
-	)
-	(segment
-		(start 107.485515 47.113)
-		(end 96.651 47.113)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "/PWM4")
-		(uuid "f1aa4fb4-b10b-4037-896e-5cdf1ef3d7da")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu")
