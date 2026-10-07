@@ -3987,16 +3987,6 @@
 		)
 		(uuid "e4b99d9b-9657-4a5d-8c79-c96df74fb128")
 	)
-	(label "IN1_2"
-		(at 64.77 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f80696d6-8f1d-4130-bdcd-75b9bd516762")
-	)
 	(label "IN1_1"
 		(at 60.96 100.33 180)
 		(effects
