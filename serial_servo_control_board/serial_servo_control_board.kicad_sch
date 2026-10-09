@@ -7005,6 +7005,17 @@
 				)
 			)
 		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g104232/"
+			(at 119.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cca6e76f-09a0-4c28-8ac2-d0df06651d30")
 		)
@@ -7160,6 +7171,17 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g104232/"
 			(at 125.73 38.1 0)
 			(hide yes)
 			(show_name no)
