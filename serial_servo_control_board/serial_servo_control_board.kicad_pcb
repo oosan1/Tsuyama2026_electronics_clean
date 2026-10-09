@@ -6362,10 +6362,10 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.6)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7237,7 +7237,7 @@
 		(descr "Molex SPOX Connector System, 5268-03A, 3 Pins per row (https://www.molex.com/pdm_docs/sd/022057045_sd.pdf)")
 		(tags "connector Molex SPOX horizontal")
 		(property "Reference" "J3"
-			(at 8.382 -1.27 180)
+			(at 8.382 -1.27 0)
 			(layer "F.SilkS")
 			(uuid "0c7dc217-fc7c-44d2-aa56-1470a22d5a5b")
 			(effects
@@ -7510,15 +7510,15 @@
 			(uuid "4ec5fa28-ad41-4fcf-926b-4d5f19b27940")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_SPOX_5268-03A_1x03_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/../common_lib/3dmodels/5268-03A.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -9.8 1.8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 -0 -0)
 			)
 		)
 	)
