@@ -671,6 +671,265 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2881,7 +3140,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "5.0~7.4V"
+	(text "6.0V"
 		(exclude_from_sim no)
 		(at 26.67 70.358 0)
 		(effects
@@ -2892,10 +3151,28 @@
 		(uuid "f4f7eae8-da42-45ea-99e8-a90c3b647314")
 	)
 	(junction
+		(at 83.82 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "049f0270-4ffe-4a56-abc0-7c6f13e1987b")
+	)
+	(junction
 		(at 101.6 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66dac9e2-6c4d-4531-b235-e7419ed69712")
+	)
+	(junction
+		(at 113.03 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87fbade3-d193-4581-a37f-b9f169c0c2d0")
+	)
+	(junction
+		(at 170.18 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92e0b4d6-1136-4412-9be2-5f2ca9211287")
 	)
 	(junction
 		(at 26.67 78.74)
@@ -2939,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 38.1) (xy 120.65 38.1)
+			(xy 111.76 38.1) (xy 113.03 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2966,6 +3243,16 @@
 			(type default)
 		)
 		(uuid "1e933da4-2138-4992-9911-8c38b4092f5c")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f518618-fe4f-4f02-b30c-9dfb33cea490")
 	)
 	(wire
 		(pts
@@ -3099,6 +3386,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 113.03) (xy 40.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c167221-c9f6-48b3-b8bb-1b336d24ab45")
+	)
+	(wire
+		(pts
 			(xy 90.17 33.02) (xy 91.44 33.02)
 		)
 		(stroke
@@ -3139,7 +3436,27 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 31.75) (xy 175.26 33.02)
+			(xy 24.13 113.03) (xy 24.13 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4f9eb3-75aa-422f-bf43-95aed9017195")
+	)
+	(wire
+		(pts
+			(xy 170.18 24.13) (xy 170.18 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abdcde6-3b46-4651-a875-444ac43a38f5")
+	)
+	(wire
+		(pts
+			(xy 185.42 31.75) (xy 185.42 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3159,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 33.02) (xy 175.26 33.02)
+			(xy 157.48 33.02) (xy 185.42 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3206,6 +3523,16 @@
 			(type default)
 		)
 		(uuid "7b05444f-4654-487b-ba70-686ad145f7b7")
+	)
+	(wire
+		(pts
+			(xy 113.03 38.1) (xy 120.65 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cc171c-e167-4211-9516-9aca4bb6ff9b")
 	)
 	(wire
 		(pts
@@ -3256,6 +3583,16 @@
 			(type default)
 		)
 		(uuid "9e7d24dd-98d2-40c3-b162-233435e1e0d6")
+	)
+	(wire
+		(pts
+			(xy 83.82 81.28) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6bd785-f482-4bb5-9479-e075db23b71a")
 	)
 	(wire
 		(pts
@@ -3389,6 +3726,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 38.1) (xy 113.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e8b79d-f633-4552-921e-cf2eafcc5289")
+	)
+	(wire
+		(pts
 			(xy 157.48 30.48) (xy 162.56 30.48)
 		)
 		(stroke
@@ -3459,7 +3806,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 81.28) (xy 91.44 81.28)
+			(xy 78.74 81.28) (xy 83.82 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3486,6 +3833,16 @@
 			(type default)
 		)
 		(uuid "f03914ed-7e44-48f5-a1e1-83a522e57bce")
+	)
+	(wire
+		(pts
+			(xy 83.82 78.74) (xy 83.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fd12c6-439e-41e4-afb9-20abc59e1575")
 	)
 	(wire
 		(pts
@@ -3529,7 +3886,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 30.48) (xy 170.18 30.48)
+			(xy 162.56 30.48) (xy 177.8 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3568,7 +3925,7 @@
 		(uuid "30f344f3-f3c7-49d8-9912-1b01461af48f")
 	)
 	(label "RX"
-		(at 88.9 81.28 0)
+		(at 78.74 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3598,7 +3955,7 @@
 		(uuid "cedd3f15-ea98-40de-af98-5fa071a7f643")
 	)
 	(label "signal"
-		(at 170.18 30.48 180)
+		(at 177.8 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4274,6 +4631,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 24.13 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b433f75-7916-4786-9b83-2b377806e187")
+		(property "Reference" "TP3"
+			(at 26.67 108.4579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 26.67 110.9979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 29.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 24.13 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c92ecf6-fcf2-40ec-9db0-bca8891eab0c")
+		)
+		(instances
+			(project "serial_servo_control_board"
+				(path "/6396283e-661c-4110-ac71-21f4d1899067"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 31.75 33.02 0)
 		(unit 1)
@@ -4346,6 +4782,163 @@
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 40.64 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "455bee8b-6fb8-4046-91c2-d5bb1d9cf521")
+		(property "Reference" "#PWR024"
+			(at 40.64 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 40.513 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 40.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49ca1e76-abd7-4375-b19f-92b9fa34fee2")
+		)
+		(instances
+			(project "serial_servo_control_board"
+				(path "/6396283e-661c-4110-ac71-21f4d1899067"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49bd9160-8b9b-450b-a71f-69f3cbe52e37")
+		(property "Reference" "TP4"
+			(at 43.18 108.4579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 43.18 110.9979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 45.72 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7628de3-1d86-4210-9206-a08342f78552")
+		)
+		(instances
+			(project "serial_servo_control_board"
+				(path "/6396283e-661c-4110-ac71-21f4d1899067"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -4635,6 +5228,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 170.18 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6316cb05-37bb-4a90-977b-6f7d1fe30443")
+		(property "Reference" "TP1"
+			(at 173.99 21.2724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 173.99 23.8124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 175.26 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 170.18 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7f6359b-0a85-4acc-ad14-d2cb7e5092ab")
+		)
+		(instances
+			(project "serial_servo_control_board"
+				(path "/6396283e-661c-4110-ac71-21f4d1899067"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 25.4 29.21 0)
 		(mirror x)
@@ -4825,6 +5497,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 113.03 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a59d2a6-ac39-45b3-8015-b5118b45de9c")
+		(property "Reference" "R5"
+			(at 115.57 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47k"
+			(at 115.57 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 114.808 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g118208/"
+			(at 113.03 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fcc8c6f6-3ef1-460a-a007-034dba50bec8")
+		)
+		(pin "1"
+			(uuid "0e422ac8-c219-4d5b-9a4c-e6accd4c76f5")
+		)
+		(instances
+			(project "serial_servo_control_board"
+				(path "/6396283e-661c-4110-ac71-21f4d1899067"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDC")
 		(at 101.6 20.32 0)
 		(unit 1)
@@ -4974,6 +5739,84 @@
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 113.03 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cac519d-0f68-4210-b6a5-bded999badab")
+		(property "Reference" "#PWR011"
+			(at 113.03 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 112.903 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 113.03 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b131f352-e470-483e-a861-cb131ab66091")
+		)
+		(instances
+			(project "serial_servo_control_board"
+				(path "/6396283e-661c-4110-ac71-21f4d1899067"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6181,6 +7024,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 24.13 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c71e6d78-9678-4a62-b605-3caa65ad4cc7")
+		(property "Reference" "#PWR029"
+			(at 24.13 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e7b51e5-1c81-4137-b231-0c7e2024c29f")
+		)
+		(instances
+			(project "serial_servo_control_board"
+				(path "/6396283e-661c-4110-ac71-21f4d1899067"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 125.73 38.1 0)
 		(unit 1)
@@ -6621,8 +7542,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 175.26 31.75 0)
+		(lib_id "Connector:TestPoint_Probe")
+		(at 83.82 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6631,10 +7552,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d65890f5-4821-4648-8169-e21f743e0f2c")
-		(property "Reference" "#PWR014"
-			(at 175.26 35.56 0)
-			(hide yes)
+		(uuid "d4a5f49f-5b8d-4185-a34a-2bd8881cc8c7")
+		(property "Reference" "TP2"
+			(at 82.2325 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6643,8 +7563,8 @@
 				)
 			)
 		)
-		(property "Value" "+SERVO"
-			(at 175.26 26.67 0)
+		(property "Value" "TestPoint_Probe"
+			(at 82.2325 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6653,8 +7573,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 175.26 31.75 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6665,7 +7585,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 31.75 0)
+			(at 83.82 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 83.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe00092b-5176-447e-8588-921bf69a67cf")
+		)
+		(instances
+			(project "serial_servo_control_board"
+				(path "/6396283e-661c-4110-ac71-21f4d1899067"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 185.42 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d65890f5-4821-4648-8169-e21f743e0f2c")
+		(property "Reference" "#PWR014"
+			(at 185.42 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+SERVO"
+			(at 185.42 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6676,7 +7674,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 175.26 31.75 0)
+			(at 185.42 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
