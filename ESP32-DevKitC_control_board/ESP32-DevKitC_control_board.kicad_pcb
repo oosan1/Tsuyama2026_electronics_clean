@@ -12027,6 +12027,17 @@
 		(uuid "ddfa3197-8d2b-4baa-a81d-318713dba51b")
 	)
 	(gr_rect
+		(start 68.5 46)
+		(end 76.5 54)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "c3a8e33a-c04c-4d59-8a03-3ea1d0615e35")
+	)
+	(gr_rect
 		(start 30 20)
 		(end 115 80)
 		(radius 3.5)
@@ -12089,7 +12100,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "BoardID:\n TS26-CTRL-ESP32\n\nver 1.0"
+	(gr_text "BoardID:\n TS26-CTRL-ESP32\n\nver 1.1"
 		(at 39 24.5 0)
 		(layer "F.SilkS")
 		(uuid "2495f417-31f8-448c-b5cc-11c4f4697f45")
@@ -12827,15 +12838,6 @@
 		(uuid "0e0e490d-6440-4e96-8a0a-76fc28f86cb2")
 	)
 	(via
-		(at 70 50)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "0f1bed73-3152-4213-85b7-8e2eb3452126")
-	)
-	(via
 		(at 35 38)
 		(size 0.8)
 		(drill 0.4)
@@ -13392,15 +13394,6 @@
 		(free yes)
 		(net "GND")
 		(uuid "8bd57917-7541-4d43-822c-aeb1d9f73448")
-	)
-	(via
-		(at 75 50)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "8cdec602-13b2-4787-b678-2edc0f22000c")
 	)
 	(via
 		(at 89 52)
