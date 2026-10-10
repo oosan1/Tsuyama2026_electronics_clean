@@ -3976,7 +3976,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "005a95ac-0e86-426b-89cb-874f29ff9628")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 106.68 25.654 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4049,7 +4049,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4067,7 +4067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fa84c73-fdb7-4fee-805d-8a1fd4c898db")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR017"
 			(at 101.6 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4127,7 +4127,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR04")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4145,7 +4145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "145a2dc2-d95e-4d57-aeec-68ccde9b8cec")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 165.1 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4220,7 +4220,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4238,7 +4238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1659012c-f5d9-40c2-a40d-f791023d44dd")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR019"
 			(at 113.03 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4298,7 +4298,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR010")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4316,7 +4316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1823867d-23d5-4947-823a-e2563b4220b9")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 45.72 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4376,7 +4376,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4393,7 +4393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19b11b03-a500-4ef7-96f1-f91b54d16486")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR012"
 			(at 57.15 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4453,7 +4453,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR018")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4642,7 +4642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b433f75-7916-4786-9b83-2b377806e187")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 26.67 108.4579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,7 +4703,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "TP3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4721,7 +4721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f95e48b-e06a-41af-a532-998c701b77af")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR04"
 			(at 31.75 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4781,7 +4781,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR028")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4799,7 +4799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "455bee8b-6fb8-4046-91c2-d5bb1d9cf521")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR08"
 			(at 40.64 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4859,7 +4859,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR024")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4877,7 +4877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49bd9160-8b9b-450b-a71f-69f3cbe52e37")
-		(property "Reference" "TP4"
+		(property "Reference" "TP2"
 			(at 43.18 108.4579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4938,7 +4938,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "TP4")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -5148,7 +5148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5add843a-1244-4e86-80f5-a08e9f8d0290")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 106.68 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5221,7 +5221,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5239,7 +5239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6316cb05-37bb-4a90-977b-6f7d1fe30443")
-		(property "Reference" "TP1"
+		(property "Reference" "TP4"
 			(at 173.99 21.2724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5300,7 +5300,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "TP1")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5508,7 +5508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a59d2a6-ac39-45b3-8015-b5118b45de9c")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 115.57 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5583,7 +5583,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5600,7 +5600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cdc6159-c379-4a65-8a2a-f00c37e308f7")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR015"
 			(at 101.6 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -5660,7 +5660,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR021")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5678,7 +5678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87797e8d-f0b1-4f0e-8417-830756b02c17")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR018"
 			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5738,7 +5738,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR031")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5756,7 +5756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cac519d-0f68-4210-b6a5-bded999badab")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR020"
 			(at 113.03 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5816,7 +5816,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR011")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5834,7 +5834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f584ed6-d805-4ce5-8ae2-dc50fdbb01f5")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR022"
 			(at 116.84 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5894,7 +5894,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR012")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5912,7 +5912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97ca9dae-fc5f-4094-be78-dd6693a278a0")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR013"
 			(at 57.15 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5972,7 +5972,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR020")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5989,7 +5989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d02d79a-9179-4ec3-8afc-e68836c9a586")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 128.27 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6049,7 +6049,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6170,7 +6170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7c55d1e-853d-4e94-b337-1b31a54de185")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 42.926 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6278,7 +6278,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6296,7 +6296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8b571a6-5d7b-4858-8d97-1dad2390891e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR016"
 			(at 101.6 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6356,7 +6356,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR05")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6374,7 +6374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad4a2a9f-1fe2-41cc-9b91-f26eb4ec8c19")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 121.92 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6447,7 +6447,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6465,7 +6465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b06a059e-a157-4a8f-add0-b1cbcd260b12")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 31.75 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6525,7 +6525,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6543,7 +6543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7b237b0-19c1-4c6c-a7cc-d8afa240b237")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR021"
 			(at 113.03 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6603,7 +6603,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR030")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6621,7 +6621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba85f7ae-f74f-43a4-a2d5-ce2d1e794cb7")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR03"
 			(at 26.67 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6681,7 +6681,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR019")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6792,7 +6792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c344eb5e-cf8f-4eb1-b36c-f4435f7d4bc4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR06"
 			(at 35.56 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6852,7 +6852,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR02")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6869,7 +6869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4960a66-01c1-45ad-911e-cab7bef785eb")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 162.56 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -6929,7 +6929,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7046,7 +7046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c71e6d78-9678-4a62-b605-3caa65ad4cc7")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR01"
 			(at 24.13 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7106,7 +7106,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR029")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7222,7 +7222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c76c843b-0940-4adf-b31f-bc5eec93ec3e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR023"
 			(at 128.27 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7282,7 +7282,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR08")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7300,7 +7300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c781b2e8-f4e8-47ac-ac35-bd82236590c5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR02"
 			(at 26.67 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7360,7 +7360,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR017")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7377,7 +7377,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccba5170-274a-4211-824e-73bd55edd0c6")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 82.804 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7474,7 +7474,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7575,7 +7575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4a5f49f-5b8d-4185-a34a-2bd8881cc8c7")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 82.2325 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7634,7 +7634,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7652,7 +7652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d65890f5-4821-4648-8169-e21f743e0f2c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR027"
 			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7712,7 +7712,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR014")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7730,7 +7730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7288f7e-2e73-42ce-a614-2b32a32fba94")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR09"
 			(at 41.91 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7790,7 +7790,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR016")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7807,7 +7807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "daf8dfe0-0328-4882-b377-094efe6829c0")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 73.914 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7904,7 +7904,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7922,7 +7922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a470d1-82bd-461b-a5a4-2b3b17960a8b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR011"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7982,7 +7982,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR06")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8000,7 +8000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed138860-a927-45eb-a4ce-01b7a2ab4285")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 39.37 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8060,7 +8060,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8078,7 +8078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2f0b199-c470-46e0-b944-0d6333e7bfc8")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR025"
 			(at 158.75 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8138,7 +8138,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR013")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8156,7 +8156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f43a317e-3ade-4078-9659-4daf65f1b2d8")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 60.96 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8216,7 +8216,7 @@
 		(instances
 			(project "serial_servo_control_board"
 				(path "/6396283e-661c-4110-ac71-21f4d1899067"
-					(reference "#PWR09")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

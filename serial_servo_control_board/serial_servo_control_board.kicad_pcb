@@ -306,7 +306,7 @@
 		(at 78.486 95.25 180)
 		(descr "Diode, DO-34_SOD68 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=3.04*1.6mm^2, https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
 		(tags "Diode DO-34_SOD68 series Axial Vertical pin pitch 2.54mm  length 3.04mm diameter 1.6mm")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "1cc073f2-c8ec-4bb8-9ff4-94b382421dbb")
@@ -506,7 +506,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.166667)
-			(net "Net-(D5-K)")
+			(net "Net-(D2-K)")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "c4849cdc-1f4a-4428-884e-546a52b8d209")
@@ -517,7 +517,7 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D4-K)")
+			(net "Net-(D1-K)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "b2abab48-f3da-4419-b585-216e4b48675c")
@@ -1292,7 +1292,7 @@
 		(at 88.392 68.326)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "9bcb03d2-853a-43a3-9dca-00d3f86cb25f")
@@ -1452,6 +1452,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "21330543-dce1-4066-8204-2c4139291f65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g104232/"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5e4c5f7-0267-4987-b105-d21da3a23699")
 			(effects
 				(font
 					(size 1 1)
@@ -2231,7 +2244,7 @@
 		(at 64.262 74.168 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 4.826 -1.27 90)
 			(layer "F.SilkS")
 			(uuid "727173b8-9cae-4166-925d-cb1c4f593a56")
@@ -2628,7 +2641,7 @@
 		(at 75.946 97.79)
 		(descr "Diode, DO-34_SOD68 series, Axial, Vertical, pin pitch=2.54mm, length*diameter=3.04*1.6mm^2, https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf")
 		(tags "Diode DO-34_SOD68 series Axial Vertical pin pitch 2.54mm  length 3.04mm diameter 1.6mm")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "6a266171-53da-4738-b4b0-1925c35e69db")
@@ -2828,7 +2841,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.166667)
-			(net "Net-(D4-K)")
+			(net "Net-(D1-K)")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "cca18d59-7a33-4364-9fb7-2dce8d74bb11")
@@ -2839,7 +2852,7 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D4-A)")
+			(net "Net-(D1-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "10b655cc-2cc9-431c-9300-61ae5cb89f39")
@@ -2863,7 +2876,7 @@
 		(at 66.04 90.464 -90)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 5mm width 2.5mm Capacitor")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 3.262 2.286 90)
 			(layer "F.SilkS")
 			(uuid "0f31fe92-bcd2-4640-8afb-31dd8d29ebb0")
@@ -3598,7 +3611,7 @@
 		(at 76.2 72.644 180)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 5mm width 2.5mm Capacitor")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at -2.794 -1.524 0)
 			(layer "F.SilkS")
 			(uuid "4a76eb85-27fa-4c0e-9942-3e3eed77c7b9")
@@ -3791,7 +3804,7 @@
 		(at 56.642 90.932)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP1"
+		(property "Reference" "TP4"
 			(at 2.794 -1.016 0)
 			(layer "F.SilkS")
 			(uuid "1c2f9433-8688-4e68-9e8c-5fc120c35d24")
@@ -3902,7 +3915,7 @@
 		(at 88.392 73.152)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "40e1d793-5b64-43b5-b483-df3f833bfa10")
@@ -4013,7 +4026,7 @@
 		(at 88.392 63.5)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP4"
+		(property "Reference" "TP2"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "7dbe0d14-1581-4a68-8cdb-393ec31b09f7")
@@ -4231,7 +4244,7 @@
 		(at 63.754 62.738 180)
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 2.54 -6.096 0)
 			(layer "F.SilkS")
 			(uuid "5437d071-351b-4d93-8723-6b1b1c19f16d")
@@ -6585,7 +6598,7 @@
 			(at -4.75 -1.27 270)
 			(size 0.8 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(D5-K)")
+			(net "Net-(D2-K)")
 			(pinfunction "A_1")
 			(pintype "passive")
 			(uuid "d0b99a72-69c0-4305-9da0-15a3907746a5")
@@ -6761,7 +6774,7 @@
 		(at 66.294 87.122)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 4.826 0 0)
 			(layer "F.SilkS")
 			(uuid "18976a26-6f82-4201-a3b6-8d90198e6730")
@@ -7106,7 +7119,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D4-A)")
+			(net "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "9bd7f5b1-535b-4f67-929c-397ebac144db")
 		)
@@ -7584,6 +7597,19 @@
 				)
 			)
 		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g104232/"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "068498cf-2bf8-4395-9a44-223c38f255b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/c711d154-b435-4314-b62f-d80d174ba703")
 		(sheetname "/")
@@ -7910,7 +7936,7 @@
 		(at 70.104 72.644 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 4.572 1.016 0)
 			(layer "F.SilkS")
 			(uuid "569b0a4c-4e95-45a8-abd0-f707113bafd9")
@@ -8384,6 +8410,17 @@
 		)
 	)
 	(gr_rect
+		(start 72.938 87.924)
+		(end 77.938 92.924)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "77f80209-2b48-4106-bf84-b5e32962f08e")
+	)
+	(gr_rect
 		(start 55 50)
 		(end 90 100)
 		(radius 3.5)
@@ -8421,7 +8458,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "ver 0.1"
+	(gr_text "ver 1.0"
 		(at 83.312 59.182 0)
 		(layer "F.SilkS")
 		(uuid "987f1a93-2419-4dd6-940f-6a472a9715fa")
@@ -8563,7 +8600,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "2026/10/09\nDesigned by E.Yoshioka"
+	(gr_text "2026/10/10\nDesigned by E.Yoshioka"
 		(at 81.28 61.214 90)
 		(layer "B.SilkS")
 		(uuid "6c25755c-5a91-4da6-92c6-229db60e1532")
@@ -8899,15 +8936,6 @@
 		(uuid "8213d8c0-e8dc-4c3b-81ba-9d6eec5732d8")
 	)
 	(via
-		(at 75 92)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GNDPWR")
-		(uuid "899489b7-c971-4af6-a5bb-1a9f7379e8de")
-	)
-	(via
 		(at 80 61)
 		(size 0.8)
 		(drill 0.4)
@@ -9068,30 +9096,6 @@
 		(free yes)
 		(net "GNDPWR")
 		(uuid "fec03b48-8731-43a9-8369-8ad32f689a06")
-	)
-	(segment
-		(start 78.486 93.116)
-		(end 78.334 92.964)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D5-K)")
-		(uuid "60e334f8-a28b-4d16-abdf-69701fabc4ff")
-	)
-	(segment
-		(start 78.486 95.25)
-		(end 78.486 93.116)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D5-K)")
-		(uuid "a05496a7-6f1b-4706-91bd-83b2730f9ce9")
-	)
-	(segment
-		(start 75.946 97.79)
-		(end 75.946 95.25)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D4-K)")
-		(uuid "f7028795-2f49-416d-9cc4-2139cc3281b4")
 	)
 	(segment
 		(start 67.56 67.564)
@@ -9578,7 +9582,7 @@
 		(end 82.296 93.98)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "Net-(D4-A)")
+		(net "Net-(D1-A)")
 		(uuid "a99db936-c447-4083-85fa-d9977a87b5f7")
 	)
 	(segment
@@ -9586,8 +9590,32 @@
 		(end 78.486 97.79)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "Net-(D4-A)")
+		(net "Net-(D1-A)")
 		(uuid "f643f0d8-0657-489a-86fd-a4c77792b67d")
+	)
+	(segment
+		(start 75.946 97.79)
+		(end 75.946 95.25)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D1-K)")
+		(uuid "f7028795-2f49-416d-9cc4-2139cc3281b4")
+	)
+	(segment
+		(start 78.486 93.116)
+		(end 78.334 92.964)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D2-K)")
+		(uuid "60e334f8-a28b-4d16-abdf-69701fabc4ff")
+	)
+	(segment
+		(start 78.486 95.25)
+		(end 78.486 93.116)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D2-K)")
+		(uuid "a05496a7-6f1b-4706-91bd-83b2730f9ce9")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu")
