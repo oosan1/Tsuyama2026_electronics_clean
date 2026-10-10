@@ -10677,6 +10677,17 @@
 		(uuid "4adb9ea7-f99c-4f7e-8913-746cc44b5745")
 	)
 	(gr_rect
+		(start 32.552 65.318)
+		(end 37.552 70.318)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "8947ecb1-4967-4ae4-b4d5-404d268b703d")
+	)
+	(gr_rect
 		(start 38.25 81.6)
 		(end 50.75 88.5)
 		(stroke
@@ -10788,7 +10799,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "ver 1.0"
+	(gr_text "ver 1.1"
 		(at 27.432 26.924 0)
 		(layer "F.SilkS")
 		(uuid "579991d7-7518-4dab-81c9-aa6ae006434d")
