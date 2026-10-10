@@ -6782,7 +6782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "133487b0-a609-46ee-a123-235dc66b97e8")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 209.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -6842,7 +6842,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7297,7 +7297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25770815-9bc6-4ed3-8b5a-8af00692d75f")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR045"
 			(at 157.48 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -7357,7 +7357,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR047")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7375,7 +7375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a7bac0f-c323-44a9-b498-fbcb45ffbf65")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 120.65 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7435,7 +7435,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7539,7 +7539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33886569-d34f-47ba-9476-1e6beaed6380")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR042"
 			(at 162.56 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -7599,7 +7599,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR053")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7788,7 +7788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a40cda1-02c2-4777-b56d-f51a16f692fc")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 128.27 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -7848,7 +7848,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8470,7 +8470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53615e3a-63a5-4b23-897a-93b991e80d6c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 72.39 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -8530,7 +8530,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -9276,7 +9276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70ff6e28-0eb8-40fc-87c1-f75aad131373")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 220.98 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -9336,7 +9336,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -9625,7 +9625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82865a99-4273-46e7-96b8-5d49774642ea")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 90.17 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -9685,7 +9685,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10859,7 +10859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af3d97d0-5911-492f-a4a4-ecf763bbb104")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 114.3 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -10919,7 +10919,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11737,7 +11737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb965784-3024-48a7-9bba-43da76bf7a31")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 107.95 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -11797,7 +11797,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -12730,7 +12730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d653e1bf-7ec8-4c0c-99e5-fbeda560bdd6")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 209.55 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -12790,7 +12790,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -12979,7 +12979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddff1dad-5def-4c97-b0f9-8aae8e6a3a20")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 34.29 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -13039,7 +13039,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13220,7 +13220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e05ffa59-45e9-4281-a5b6-ebb0df272f05")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 27.94 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -13280,7 +13280,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -13502,7 +13502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eab6abc6-f1f7-4f32-bea0-bc040fd9c4f9")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 43.18 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -13562,7 +13562,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -13904,7 +13904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb2bd2df-01d6-4fb2-b450-7ed1f0467136")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 234.95 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -13964,7 +13964,7 @@
 		(instances
 			(project "Nucleo-F446RE_control_board"
 				(path "/831eb46c-8063-48af-b9d8-2e725b4cd87f"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

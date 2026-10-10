@@ -13661,10 +13661,10 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.746031746)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -15467,6 +15467,17 @@
 		(uuid "6168dd5e-4975-4648-9242-efa55c5a448f")
 	)
 	(gr_rect
+		(start 51.054 72.01)
+		(end 59.054 80.01)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "8b3a089d-8694-4f5b-a057-a2b4c6b14544")
+	)
+	(gr_rect
 		(start 56.588 102.828)
 		(end 69.088 109.728)
 		(stroke
@@ -15615,7 +15626,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "BoardID:\n TS26-CTRL-F446RE\n\nver 0.5"
+	(gr_text "BoardID:\n TS26-CTRL-F446RE\n\nver 1.0"
 		(at 45.974 107.696 0)
 		(layer "F.SilkS")
 		(uuid "ad25ed61-606b-42b8-8b78-9d9b31eddfb1")
@@ -16314,7 +16325,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "2026/10/03\nDesigned by E.Yoshioka"
+	(gr_text "2026/10/10\nDesigned by E.Yoshioka"
 		(at 74.168 94.742 0)
 		(layer "B.SilkS")
 		(uuid "0513d618-3ca6-41ae-9132-417d5c5a90eb")
@@ -16395,15 +16406,6 @@
 		(layer "B.Cu")
 		(net "/CAN1-")
 		(uuid "ef77462c-485b-4899-921e-456d1535ff7f")
-	)
-	(via
-		(at 55 76)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "02b51c96-eb88-460d-988a-2c858ebffd79")
 	)
 	(via
 		(at 95 91)
