@@ -5209,7 +5209,7 @@
 	)
 	(text "24Vフロントエンド"
 		(exclude_from_sim no)
-		(at 236.474 18.288 0)
+		(at 247.142 18.034 0)
 		(effects
 			(font
 				(size 2.54 2.54)

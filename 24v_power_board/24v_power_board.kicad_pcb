@@ -1301,7 +1301,7 @@
 		(descr "Hirose DF1E series connector, 2 pins, right-angle, pitch 2.50mm")
 		(tags "connector Hirose DF1E right-angle 2pin 2.5mm")
 		(property "Reference" "J3"
-			(at 1.25 -12.6 180)
+			(at 6.604 2.54 180)
 			(layer "F.SilkS")
 			(uuid "2e0dcb8c-c5a2-41cf-93f2-b2b3d980f221")
 			(effects
@@ -11729,7 +11729,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 1.43 90)
+			(at 2.527 0 90)
 			(layer "B.SilkS")
 			(uuid "8a631ba9-fadb-4dd3-9f02-53d519d4e7b4")
 			(effects
@@ -15205,7 +15205,7 @@
 		(layer "Edge.Cuts")
 		(uuid "21386f2b-5af9-4201-b4d9-9878a51eebee")
 	)
-	(gr_text "BoardID:\n TS26-PWR-MAIN\n\nver 0.9"
+	(gr_text "BoardID:\n TS26-PWR-MAIN\n\nver 1.0"
 		(at 35.56 28.956 0)
 		(layer "F.SilkS")
 		(uuid "012eaaaa-5d4c-455d-98a7-327718f241b9")
@@ -15541,7 +15541,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "2026/09/23\nDesigned by E.Yoshioka"
+	(gr_text "2026/10/10\nDesigned by E.Yoshioka"
 		(at 61 40 0)
 		(layer "B.SilkS")
 		(uuid "40df53c5-ab9b-4b03-8dac-4abb108c7298")
@@ -18650,7 +18650,7 @@
 				(xy 78.28977 56.722323) (xy 78.391099 56.764294) (xy 78.3911 56.764294) (xy 78.391101 56.764295)
 				(xy 78.407327 56.771016) (xy 78.407329 56.771017) (xy 78.40733 56.771017) (xy 78.462749 56.793973)
 				(xy 78.643408 56.829908) (xy 78.645643 56.830409) (xy 78.646381 56.8305) (xy 78.646383 56.8305)
-				(xy 78.646384 56.8305) (xy 78.833617 56.8305) (xy 79.449882 56.8305) (xy 79.484816 56.835523) (xy 79.514426 56.844217)
+				(xy 78.646384 56.8305) (xy 79.449882 56.8305) (xy 79.484816 56.835523) (xy 79.514426 56.844217)
 				(xy 79.553122 56.863422) (xy 79.647113 56.93279) (xy 79.647115 56.932791) (xy 79.647118 56.932793)
 				(xy 79.689845 56.947744) (xy 79.775299 56.977646) (xy 79.775303 56.977647) (xy 79.793742 56.979375)
 				(xy 79.80573 56.9805) (xy 79.805734 56.9805) (xy 80.26767 56.9805) (xy 80.302606 56.985523) (xy 80.317604 56.989927)
