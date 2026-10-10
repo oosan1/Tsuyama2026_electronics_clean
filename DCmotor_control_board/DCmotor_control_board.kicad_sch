@@ -4188,7 +4188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11b06189-3a93-4a98-900e-e31a746034e2")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 161.29 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4248,7 +4248,7 @@
 		(instances
 			(project "DCmotor_control_board"
 				(path "/99a91a5e-5cbb-4f6e-aa08-d3fc2ac4ed72"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4536,7 +4536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bbcc960-2d9d-4f40-8e15-1bf78870ecf0")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 83.82 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4596,7 +4596,7 @@
 		(instances
 			(project "DCmotor_control_board"
 				(path "/99a91a5e-5cbb-4f6e-aa08-d3fc2ac4ed72"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4692,7 +4692,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "404bca93-191e-4f89-a4c3-91ff84112ff5")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 115.57 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4756,7 +4756,7 @@
 		(instances
 			(project "DCmotor_control_board"
 				(path "/99a91a5e-5cbb-4f6e-aa08-d3fc2ac4ed72"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4930,7 +4930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fad5838-d459-4e2a-a76f-8b794e712805")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 102.87 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4990,7 +4990,7 @@
 		(instances
 			(project "DCmotor_control_board"
 				(path "/99a91a5e-5cbb-4f6e-aa08-d3fc2ac4ed72"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5437,7 +5437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "547af562-23e2-4d4c-ac39-7089c3c0815a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 149.86 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5497,7 +5497,7 @@
 		(instances
 			(project "DCmotor_control_board"
 				(path "/99a91a5e-5cbb-4f6e-aa08-d3fc2ac4ed72"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5675,7 +5675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57553845-5887-4ad4-a4fb-2b13d10251ce")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 161.29 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5735,7 +5735,7 @@
 		(instances
 			(project "DCmotor_control_board"
 				(path "/99a91a5e-5cbb-4f6e-aa08-d3fc2ac4ed72"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5753,7 +5753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "669e5143-d9a1-45b1-9efe-859cdb898d55")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR023"
 			(at 149.86 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5813,7 +5813,7 @@
 		(instances
 			(project "DCmotor_control_board"
 				(path "/99a91a5e-5cbb-4f6e-aa08-d3fc2ac4ed72"
-					(reference "#PWR019")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6026,7 +6026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e634603-c077-4477-a084-d0f5fa1304bc")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 97.79 16.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6094,7 +6094,7 @@
 		(instances
 			(project "DCmotor_control_board"
 				(path "/99a91a5e-5cbb-4f6e-aa08-d3fc2ac4ed72"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6551,7 +6551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c361bae-97ad-4116-a6d4-d53f12ef8a26")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 102.87 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6611,7 +6611,7 @@
 		(instances
 			(project "DCmotor_control_board"
 				(path "/99a91a5e-5cbb-4f6e-aa08-d3fc2ac4ed72"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8227,7 +8227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de213747-d910-4d36-b114-9463f74853de")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR020"
 			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8287,7 +8287,7 @@
 		(instances
 			(project "DCmotor_control_board"
 				(path "/99a91a5e-5cbb-4f6e-aa08-d3fc2ac4ed72"
-					(reference "#PWR026")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

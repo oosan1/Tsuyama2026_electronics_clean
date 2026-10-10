@@ -141,6 +141,19 @@
 				)
 			)
 		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g118360/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3305af53-7408-433e-b2d1-570fc0eb211b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SO*6L*10x3.84mm*P1.27mm*")
 		(path "/f8323226-8d60-425f-9fbf-c0c0ef391cc3")
 		(sheetname "/")
@@ -616,6 +629,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g118360/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dc1aaf5-9da5-4576-a72c-38992ad1927b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3000,6 +3026,19 @@
 				)
 			)
 		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g118360/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a71d7d9-5528-4c22-b40c-2807910c7858")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SO*6L*10x3.84mm*P1.27mm*")
 		(path "/ded3f10a-d0bc-4811-b3a2-16d490d193f8")
 		(sheetname "/")
@@ -3666,7 +3705,7 @@
 		(at 41.402 71.254 90)
 		(descr "Hirose DF1E series connector, 4 pins, right-angle, pitch 2.50mm")
 		(tags "connector Hirose DF1E right-angle 4pin 2.5mm")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at -1.898 4.572 180)
 			(layer "F.SilkS")
 			(uuid "c0cc1aaf-92b6-4455-9144-0a80004892ed")
@@ -4103,7 +4142,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J4-Pin_3-Pad3)")
+			(net "unconnected-(J3-Pin_3-Pad3)")
 			(pinfunction "Pin_3_3")
 			(pintype "passive+no_connect")
 			(uuid "da344b81-2a3a-4ebd-a0fa-d64aa3724cf0")
@@ -4182,6 +4221,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g118360/"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c01e695a-48bf-4b07-ba4f-962328ee4d3c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8407,7 +8459,7 @@
 		(at 63.754 53.848 -90)
 		(descr "Hirose DF1E series connector, 2 pins, right-angle, pitch 2.50mm")
 		(tags "connector Hirose DF1E right-angle 2pin 2.5mm")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 6.35 -9.906 180)
 			(layer "F.SilkS")
 			(uuid "1f8d2c4b-e261-422c-af36-5c8d54c00e13")
@@ -8722,7 +8774,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
-			(net "Net-(J3-Pin_1)")
+			(net "Net-(J4-Pin_1)")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "6c5a9caa-cc73-48ff-898a-9dc01ac52105")
@@ -8733,7 +8785,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J3-Pin_2)")
+			(net "Net-(J4-Pin_2)")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "dd500a8a-0464-4f78-88e9-aab3660d03c3")
@@ -10515,7 +10567,7 @@
 			(at 2.551199 -0.635)
 			(size 1.202401 0.42)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(J3-Pin_1)")
+			(net "Net-(J4-Pin_1)")
 			(pinfunction "OUT1_6")
 			(pintype "output")
 			(uuid "8f4065e6-f43f-49f8-a0b1-f375ee008938")
@@ -10533,7 +10585,7 @@
 			(at 2.551199 1.905)
 			(size 1.202401 0.42)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(J3-Pin_2)")
+			(net "Net-(J4-Pin_2)")
 			(pinfunction "OUT2_8")
 			(pintype "output")
 			(uuid "4e5c5215-a076-42c6-a422-70117020b478")
@@ -10593,7 +10645,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f21165ed-3445-47a5-80fe-989fc5323b63")
 	)
-	(gr_text "DRIVE"
+	(gr_text "POWER"
 		(at 36.83 53.086 0)
 		(layer "F.SilkS" knockout)
 		(uuid "49a679d2-fbcb-41c3-95eb-d2fc41520297")
@@ -10723,7 +10775,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "ver 0.1"
+	(gr_text "ver 1.0"
 		(at 68 64 0)
 		(layer "F.SilkS")
 		(uuid "89a4649e-8a73-4aec-87ec-282372410beb")
@@ -10877,7 +10929,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "2026/10/03\nDesigned by\nE.Yoshioka"
+	(gr_text "2026/10/10\nDesigned by\nE.Yoshioka"
 		(at 38.862 74.93 270)
 		(layer "B.SilkS")
 		(uuid "8d97ecad-3806-453a-b697-ac208cd78fe0")
@@ -12312,7 +12364,7 @@
 		(end 63.754 53.848)
 		(width 0.8)
 		(layer "B.Cu")
-		(net "Net-(J3-Pin_1)")
+		(net "Net-(J4-Pin_1)")
 		(uuid "5357ef04-7384-4f65-a223-423b9b02eed0")
 	)
 	(segment
@@ -12320,7 +12372,7 @@
 		(end 63.754 56.348)
 		(width 0.8)
 		(layer "B.Cu")
-		(net "Net-(J3-Pin_2)")
+		(net "Net-(J4-Pin_2)")
 		(uuid "39033c4c-2871-48e4-a8f3-7bb7c6a12b95")
 	)
 	(segment
@@ -12328,7 +12380,7 @@
 		(end 63.714 56.388)
 		(width 0.8)
 		(layer "B.Cu")
-		(net "Net-(J3-Pin_2)")
+		(net "Net-(J4-Pin_2)")
 		(uuid "884f5387-c4be-45bf-8dca-0c323f6abf5f")
 	)
 	(zone
