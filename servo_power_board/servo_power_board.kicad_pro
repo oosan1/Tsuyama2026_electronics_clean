@@ -219,7 +219,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -819,7 +819,7 @@
         "uuid": "715b1808-9db1-495e-bdf5-a7d74f3e3bb8"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,RV1,TP1-2,R1-3,J1-6,D1,C1-5,#PWR1-15",
     "variants": []
   },
   "sheets": [
