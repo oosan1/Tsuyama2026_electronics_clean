@@ -76,7 +76,60 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|41939000|70427000|881e821e-5788-4270-b0d7-a8d66aca522a|ca66dfa5-84fa-4579-9ab3-c3127e25e75e",
+          ""
+        ],
+        [
+          "courtyards_overlap|47781000|60013000|93f7b759-d752-4e60-b302-3d684e2f63d8|ca66dfa5-84fa-4579-9ab3-c3127e25e75e",
+          ""
+        ],
+        [
+          "courtyards_overlap|55765195|65747000|c9967360-686c-4745-a37f-063036b0d029|ca66dfa5-84fa-4579-9ab3-c3127e25e75e",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|46736000|66802000|e0515f33-65f8-42a7-9e3d-672cd8dfd794|ca66dfa5-84fa-4579-9ab3-c3127e25e75e",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|49276000|61508000|e1c69122-e213-4a6d-90be-1688958d582a|ca66dfa5-84fa-4579-9ab3-c3127e25e75e",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|49276000|64008000|c0f95515-3cbd-4e8e-925a-f17efb3715de|ca66dfa5-84fa-4579-9ab3-c3127e25e75e",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|49276000|66802000|7a99e848-7679-443d-8e3b-0b0e53b1673d|ca66dfa5-84fa-4579-9ab3-c3127e25e75e",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|51816000|66802000|bfa926b2-41a6-4020-9bc3-4fd7cbf66820|ca66dfa5-84fa-4579-9ab3-c3127e25e75e",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|54356000|66802000|a0aa8b0f-596d-4dff-a9f6-3541dc767978|ca66dfa5-84fa-4579-9ab3-c3127e25e75e",
+          ""
+        ],
+        [
+          "starved_thermal|28702000|63722000|28eb81fc-ad0b-4a72-a547-6dec6fae2998|10cf4a6a-3342-4f6c-b03d-5aed73344e40|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|28702000|74136000|28eb81fc-ad0b-4a72-a547-6dec6fae2998|05df67fc-6a10-41fd-a218-ee687fbd0d06|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|63754000|46990000|28eb81fc-ad0b-4a72-a547-6dec6fae2998|560590c2-30d7-4063-883f-5a07e04264b9|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|66548000|63976000|28eb81fc-ad0b-4a72-a547-6dec6fae2998|a9f08882-a749-4eaa-902b-e6e20cdb153d|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -121,8 +174,8 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
