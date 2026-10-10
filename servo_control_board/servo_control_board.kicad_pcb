@@ -12851,6 +12851,17 @@
 		(uuid "3413d3d7-76a7-42d4-a5a3-fdbc50277d2c")
 	)
 	(gr_rect
+		(start 23.154 32.552)
+		(end 28.154 37.552)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "0eb4bdd7-881e-4f84-8b31-bace5bfb64cf")
+	)
+	(gr_rect
 		(start 98.55 33.394)
 		(end 104.45 45.894)
 		(stroke
@@ -12922,7 +12933,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "ver 0.2"
+	(gr_text "ver 1.0"
 		(at 28 28.392 0)
 		(layer "F.SilkS")
 		(uuid "bfc2facd-e079-4ece-adb1-ce61afa689c2")
@@ -13227,7 +13238,7 @@
 			)
 		)
 	)
-	(gr_text "2026/10/01\nDesigned by\nE.Yoshioka"
+	(gr_text "2026/10/10\nDesigned by\nE.Yoshioka"
 		(at 48 23.5 0)
 		(layer "B.SilkS")
 		(uuid "a9774703-5ee0-4552-ace8-39a4be81bd49")
