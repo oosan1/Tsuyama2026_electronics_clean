@@ -2476,7 +2476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1197a033-0cba-4bd8-ab6b-194c306c7c51")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 24.13 55.1179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2537,7 +2537,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2659,7 +2659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d54ca6f-55b8-4923-8e95-f28a4cba912f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR04"
 			(at 21.59 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2719,7 +2719,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "#PWR012")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2737,7 +2737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d8c1ad6-c304-4e71-81e3-dc093f30241b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 104.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2797,7 +2797,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2815,7 +2815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "271e50a6-4202-4ac3-941c-24e943dc1eca")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 53.34 45.4024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2876,7 +2876,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "TP3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -3158,7 +3158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59f58a77-8fcb-4936-baa3-3e27bf4e499c")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 113.03 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3218,7 +3218,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3490,7 +3490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c38e2db-e061-475c-b102-5a25a1dd4d55")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 86.36 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3550,7 +3550,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3646,7 +3646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72fdbb08-a0f4-4826-98e8-59c1a4053aac")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3706,7 +3706,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3724,7 +3724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7abfc028-2456-4ffe-8892-a62d7583e8f0")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 96.52 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3784,7 +3784,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4001,7 +4001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9851f95e-14e2-49b0-8391-9c62cc63f724")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 62.23 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4061,7 +4061,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c117aa8a-7ad8-458a-bc52-7d2de5584bf1")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 69.85 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4571,7 +4571,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4855,7 +4855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0ef1b5f-5e7e-42b5-9406-c1d4acb77fbe")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 49.53 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4915,7 +4915,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5117,7 +5117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcdf9cd5-bf43-4298-820e-e7269514a241")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 116.84 45.4024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5178,7 +5178,7 @@
 		(instances
 			(project "micon_power_board"
 				(path "/ffb185b6-b8aa-4975-b056-1915a949a353"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)

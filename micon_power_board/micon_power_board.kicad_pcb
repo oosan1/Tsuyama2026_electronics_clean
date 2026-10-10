@@ -93,7 +93,7 @@
 		(at 50.292 21.844)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 3.048 -0.254 0)
 			(layer "F.SilkS")
 			(uuid "f4cdaf44-645b-4536-b648-7d1c907aa125")
@@ -1088,7 +1088,7 @@
 		(at 29.718 63.246)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 1.016 -2.794 90)
 			(layer "F.SilkS")
 			(uuid "073d60da-a6c5-4596-b9d6-f5865a0631be")
@@ -4895,7 +4895,7 @@
 		(at 73.152 50.8)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at -3.048 0.508 0)
 			(layer "F.SilkS")
 			(uuid "46164ade-461b-4f4d-a3f6-9ba56f016e36")
@@ -8363,6 +8363,17 @@
 		(uuid "e14ce3d5-2ab3-4ed1-9956-9c47caa51b7b")
 	)
 	(gr_rect
+		(start 42.204 57.698)
+		(end 47.204 62.698)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "03ae992f-b3d0-46d1-94c9-c35488386fba")
+	)
+	(gr_rect
 		(start 66.55 34.1)
 		(end 73.45 46.6)
 		(stroke
@@ -8398,7 +8409,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "ver 0.7"
+	(gr_text "ver 1.0"
 		(at 68.8 55.8 0)
 		(layer "F.SilkS")
 		(uuid "bf571695-ef1b-49fa-9cd0-c0cd35f70249")
@@ -8527,8 +8538,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "2026/09/24\nDesigned by E.Yoshioka"
-		(at 49.784 60 0)
+	(gr_text "2026/10/10\nDesigned by E.Yoshioka"
+		(at 43.942 40.386 0)
 		(layer "B.SilkS")
 		(uuid "0eaa819e-479e-4f80-a0c2-ef9d56509f5f")
 		(effects
