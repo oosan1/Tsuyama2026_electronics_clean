@@ -15194,6 +15194,17 @@
 		(uuid "4d78ccb3-3e81-46cd-8d6f-50f153f5a795")
 	)
 	(gr_rect
+		(start 55.372 45.276)
+		(end 63.372 53.276)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "b6559443-4495-46e2-b91f-c353bd4f8c30")
+	)
+	(gr_rect
 		(start 15 16)
 		(end 115 76)
 		(radius 3.5)
@@ -15205,7 +15216,7 @@
 		(layer "Edge.Cuts")
 		(uuid "21386f2b-5af9-4201-b4d9-9878a51eebee")
 	)
-	(gr_text "BoardID:\n TS26-PWR-MAIN\n\nver 1.0"
+	(gr_text "BoardID:\n TS26-PWR-MAIN\n\nver 1.1"
 		(at 35.56 28.956 0)
 		(layer "F.SilkS")
 		(uuid "012eaaaa-5d4c-455d-98a7-327718f241b9")
@@ -15542,7 +15553,7 @@
 		)
 	)
 	(gr_text "2026/10/10\nDesigned by E.Yoshioka"
-		(at 61 40 0)
+		(at 63.5 39.116 0)
 		(layer "B.SilkS")
 		(uuid "40df53c5-ab9b-4b03-8dac-4abb108c7298")
 		(effects
