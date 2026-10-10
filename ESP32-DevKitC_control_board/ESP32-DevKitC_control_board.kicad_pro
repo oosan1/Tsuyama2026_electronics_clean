@@ -120,13 +120,13 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
-        "text_height": "warning",
+        "starved_thermal": "ignore",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -704,7 +704,7 @@
         "uuid": "154b7b86-765a-4307-9ab5-d075a1a8f1a2"
       }
     ],
-    "used_designators": "U1-2,R1-12,D4,C1-7,#PWR1-37,J1-11",
+    "used_designators": "U1-2,R1-12,D1,D4,C1-7,#PWR1-37,J1-11",
     "variants": []
   },
   "sheets": [

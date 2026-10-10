@@ -4629,7 +4629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01872937-d202-4d43-a18b-0beeda2dde26")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 157.48 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4689,7 +4689,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4785,7 +4785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0af95793-78f0-47a3-bc6a-4bf1b5c9bc0d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 48.26 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4845,7 +4845,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4944,7 +4944,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "0d0ea42c-cfba-4217-a080-acdec1da3fb5")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 152.146 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5008,7 +5008,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5025,7 +5025,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15217b72-9331-4707-8a41-84b426ff2865")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 161.29 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5085,7 +5085,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5103,7 +5103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17617d21-1c7e-474b-81ce-295aef322bac")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR017"
 			(at 74.93 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5163,7 +5163,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR08")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5340,7 +5340,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "20a7381d-cc00-4366-8c22-56c1d610ae7d")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 262.636 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5404,7 +5404,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5500,7 +5500,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "235f155f-ddd2-49b7-89df-300cc048a687")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 154.94 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5575,7 +5575,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5593,7 +5593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23d0e430-c280-4e70-a847-0c413478edbe")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 48.26 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5653,7 +5653,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5754,7 +5754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24d8e8ee-c819-431f-aa52-1acad016252a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 57.15 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5814,7 +5814,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5910,7 +5910,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "30942801-edda-47d3-8d86-7372bfbdf6c8")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 143.51 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5972,7 +5972,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6068,7 +6068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "357c95ee-983d-420b-96da-7969ea2930b7")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR037"
 			(at 71.12 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6128,7 +6128,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR024")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6146,7 +6146,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b375c74-fd34-4416-bfda-233d89d65902")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 37.465 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6208,7 +6208,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6226,7 +6226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "463b7dbe-85f2-4489-83dc-73502696a125")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 182.88 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6286,7 +6286,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6304,7 +6304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4de137a1-b17a-4247-b2e5-ec97666f2629")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 207.01 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6364,7 +6364,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6459,7 +6459,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "5ee2e345-9dc3-4b80-87b4-859d6217c204")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 188.976 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,7 +6523,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6541,7 +6541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f61513c-91bf-4824-97c0-b1451574637a")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 183.896 73.152 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6603,7 +6603,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6704,7 +6704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69261712-6253-4cef-b36d-94870dd7c54d")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 246.38 47.6249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6768,7 +6768,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6786,7 +6786,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "84ae5965-24f2-4f8c-840f-ab09581df2fb")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 163.83 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,7 +6861,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6879,7 +6879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ee3ca5-6cdb-470b-8961-d4d1eb7ec08f")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 207.01 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6939,7 +6939,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6957,7 +6957,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "86941376-56a1-478f-8a54-a88ce612e6fa")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 254 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7019,7 +7019,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7115,7 +7115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eda1319-60a7-424f-8c98-e69e0543dddb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 186.69 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7175,7 +7175,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7383,7 +7383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bdeeee0-ae86-4eb4-b644-e29fcddbcd68")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 229.87 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7458,7 +7458,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7475,7 +7475,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "9f2818d9-42bd-417e-af8b-90796a684513")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 225.806 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7539,7 +7539,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7713,7 +7713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a377956d-2a08-40d0-8306-a9464c6d5396")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 223.52 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7773,7 +7773,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7791,7 +7791,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a3de7dc1-0f1d-414b-8d31-c09dfa7d6c3c")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 180.34 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7853,7 +7853,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8032,7 +8032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af84c641-d4cb-41d9-a9c9-10ef1f955872")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 193.04 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8092,7 +8092,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8192,7 +8192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1261ec1-ddd3-4cbd-89bb-4be22266afaa")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR016"
 			(at 69.85 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8252,7 +8252,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR07")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8270,7 +8270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2bd04e4-867a-46db-8e1e-358219e7fc99")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 234.95 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8334,7 +8334,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8352,7 +8352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b52df39f-9daf-4165-a53b-48437b96c09a")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 139.7 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8420,7 +8420,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8438,7 +8438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b58a51ee-d8e4-451c-9855-b47979fb4c13")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 182.88 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8498,7 +8498,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8516,7 +8516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7046d3a-f617-437a-93bf-7d895dc725c2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8576,7 +8576,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8594,7 +8594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baf4bc20-3c1b-41b8-b5e8-9f25d634d369")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 57.15 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8654,7 +8654,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8672,7 +8672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb229a6e-ecb0-45bc-a6c6-4fe96561fcc0")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 217.17 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8732,7 +8732,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8828,7 +8828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be5cd5ff-56b7-4411-8799-1565327ac6b0")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 139.7 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8888,7 +8888,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9017,7 +9017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c447e3f8-1a9d-4af8-9b3d-f178c837a044")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 260.35 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9077,7 +9077,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9095,7 +9095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8874c4d-2c2b-4898-8d0e-784604210eef")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 139.7 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9160,7 +9160,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9348,7 +9348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dba0c25a-e737-489c-9bdc-095c6c1f397b")
-		(property "Reference" "R12"
+		(property "Reference" "R1"
 			(at 71.12 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9432,7 +9432,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R12")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9450,7 +9450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc206d8b-b848-4048-b805-649e54477bab")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 71.12 42.2274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9547,7 +9547,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9565,7 +9565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de408aaf-a0a6-458c-bad7-e5c7202ac5ec")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR010"
 			(at 67.31 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9625,7 +9625,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR037")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9643,7 +9643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0c3c85b-abf0-450e-b886-3e3b3d555c81")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR020"
 			(at 177.8 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9703,7 +9703,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR015")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9721,7 +9721,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e679a594-0722-4b5c-87bd-e5e1ba4cf2f7")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 217.17 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9783,7 +9783,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9800,7 +9800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eabfc5e1-f8ad-409a-b55b-e39aea43bfef")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 152.4 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9860,7 +9860,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9956,7 +9956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f263819d-ca2a-42e9-9ecc-7f7f615bc204")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 157.48 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10021,7 +10021,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10121,7 +10121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3cc1598-094a-4001-9e11-75f63866163d")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 210.566 20.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10196,7 +10196,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10214,7 +10214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3fd6ed8-b0c1-4df5-9558-8673ef819aa5")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 60.96 30.8609 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10289,7 +10289,7 @@
 		(instances
 			(project "ESP32-DevKitC_control_board"
 				(path "/154b7b86-765a-4307-9ab5-d075a1a8f1a2"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
