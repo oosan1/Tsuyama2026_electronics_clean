@@ -10733,7 +10733,7 @@
 				)
 			)
 		)
-		(property "Value" "MF-RX065"
+		(property "Value" "MF-RX030"
 			(at 213.36 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10743,7 +10743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_BelFuse_0ZRE0016FF_L9.9mm_W3.8mm"
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT050"
 			(at 218.44 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10768,6 +10768,17 @@
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 213.36 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buy_URL" "https://akizukidenshi.com/catalog/g/g113076/"
+			(at 213.36 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
